@@ -34,7 +34,7 @@ Meanwhile, if you want to share something with the community, we encourage you t
     [Scala.JS](https://www.dropbox.com/s/dnkkgwjflul54ny/Scala-JS%20%28KyivJS%2030-01%29.pdf?dl=0)
 
 
-### [December 5th, 2015](http://dou.ua/calendar/9101/), [Videos](javascript:alert\('Coming soon'\);)
+### [December 5th, 2015](http://dou.ua/calendar/9101/), [Videos](https://www.youtube.com/playlist?list=PLxw9RJPDS60qUL9tiH3Hh-xB8rY5xV2Cr)
 
   - ![Avatar](https://media.licdn.com/media/AAEAAQAAAAAAAAJYAAAAJDMwZDZmYWEwLWYzMzEtNDlmYy05NGFhLTZlMDBhNGJlZWVlNA.jpg) [Ivan Lavriv](https://ua.linkedin.com/in/ivan-lavriv-16b23878/en)
   - ![Avatar](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/1f2/103/0461928.jpg)[Andrii Muzalevskyi](https://ua.linkedin.com/in/andreymuzalevskiy/en)

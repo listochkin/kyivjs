@@ -35,7 +35,7 @@ layout: default
       [**Евгений Сафронов**](https://github.com/javacodegeek)
       [Scala.JS](https://www.dropbox.com/s/dnkkgwjflul54ny/Scala-JS%20%28KyivJS%2030-01%29.pdf?dl=0)
 
-### [5 декабря, 2015](http://dou.ua/calendar/9101/), [Видео](javascript:alert\('Скоро будут'\);)
+### [5 декабря, 2015](http://dou.ua/calendar/9101/), [Видео](https://www.youtube.com/playlist?list=PLxw9RJPDS60qUL9tiH3Hh-xB8rY5xV2Cr)
 
   - ![Avatar](https://media.licdn.com/media/AAEAAQAAAAAAAAJYAAAAJDMwZDZmYWEwLWYzMzEtNDlmYy05NGFhLTZlMDBhNGJlZWVlNA.jpg) [Іван Лаврів](https://ua.linkedin.com/in/ivan-lavriv-16b23878/en)
   - ![Avatar](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/000/1f2/103/0461928.jpg)[Андрей Музалевский](https://ua.linkedin.com/in/andreymuzalevskiy/en)
