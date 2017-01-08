@@ -18,19 +18,23 @@ layout: default
 ### [30 января, 2016](http://dou.ua/calendar/9623/), [Видео](javascript:alert\('Скоро будут'\);)
 
   - ![Аватар](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0a8/057/07bb452.jpg)
+
     >
       [**Денис Зайченко**](https://www.linkedin.com/in/dzaichenko)  
       [Best practices - Angular JS]()
   - ![Аватар](https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZDAAAAJGM0ZTIzMzRkLTUzMjEtNDU3Yi1hNTM4LTI1YzZkNWIxZTNkZA.jpg)
+
     >
       [**Павло Пономаренко**](https://github.com/theshock)  
       [Плагіни для JavaScript ігор](http://slides.com/theshock/javascript-plugins/)
   - ![Avatar](https://media.licdn.com/media/AAEAAQAAAAAAAAK6AAAAJDVlZTAwOTZlLTdkZDEtNDUzNy1hYjk5LTMzNTk5MjNkZDA0OQ.jpg)
+
     >
       [**Алексей Швайка**](https://www.linkedin.com/in/ashvayka)  
-      [ES6 Classes]()
+      ES6 Classes
 
   - ![Avatar](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0ac/25b/06c95fa.jpg)
+
     >
       [**Евгений Сафронов**](https://github.com/javacodegeek)
       [Scala.JS](https://www.dropbox.com/s/dnkkgwjflul54ny/Scala-JS%20%28KyivJS%2030-01%29.pdf?dl=0)
@@ -92,7 +96,9 @@ layout: default
 
 
 ## Организаторы
+
 <mark id="write-anchor"></mark>
+
 #### Сейчас курируют
 - [Александр Лапшин](https://twitter.com/sudodoki)
 

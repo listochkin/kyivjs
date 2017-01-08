@@ -18,16 +18,19 @@ Meanwhile, if you want to share something with the community, we encourage you t
 ### [January 30th, 2016](http://dou.ua/calendar/9623/), [Videos](javascript:alert\('Coming soon'\);)
 
   - ![Avatar](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0a8/057/07bb452.jpg)
+
     > [**Denis Zaichenko**](https://www.linkedin.com/in/dzaichenko)  
     [Best practices - Angular JS]()
 
   - ![Avatar](https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAZDAAAAJGM0ZTIzMzRkLTUzMjEtNDU3Yi1hNTM4LTI1YzZkNWIxZTNkZA.jpg)
+
     > [**Pavlo Ponomarenko**](https://github.com/theshock)  
     [Plugins for JavaScript games](http://slides.com/theshock/javascript-plugins/)
 
   - ![Avatar](https://media.licdn.com/media/AAEAAQAAAAAAAAK6AAAAJDVlZTAwOTZlLTdkZDEtNDUzNy1hYjk5LTMzNTk5MjNkZDA0OQ.jpg)
+
     > [**Aleksey Shvayka**](https://www.linkedin.com/in/ashvayka)  
-    [ES6 Classes]()
+    ES6 Classes
 
   - ![Avatar](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0ac/25b/06c95fa.jpg)
     > [**Evgeniy Safronov**](https://github.com/javacodegeek)  
@@ -91,7 +94,9 @@ Meanwhile, if you want to share something with the community, we encourage you t
 
 
 ## Organizers Team:
+
 <mark id="write-anchor"></mark>
+
 #### Currently Run by
 - [Alex Lapshyn](https://twitter.com/sudodoki)
 
