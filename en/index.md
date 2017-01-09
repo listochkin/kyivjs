@@ -35,6 +35,7 @@ If you want to share something with the community, we encourage you to [drop us 
     ES6 Classes
 
   - ![Avatar](https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/7/005/0ac/25b/06c95fa.jpg)
+
     > [**Evgeniy Safronov**](https://github.com/javacodegeek)  
     [Scala.JS](https://www.dropbox.com/s/dnkkgwjflul54ny/Scala-JS%20%28KyivJS%2030-01%29.pdf?dl=0)
 
