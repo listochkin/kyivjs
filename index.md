@@ -5,7 +5,7 @@ layout: default
   - # ![KyivJS](/static/kyiv-js-rectangle-no-alpha.png)
   - [Twitter](https://twitter.com/kyivjs)
   - [Gitter](https://gitter.im/dev-ua/frontend-ua/kyivjs)
-  - [Регистрация<br> скоро откроется]()
+  - [Регистрация<br> скоро откроется](https://goo.gl/forms/m2Hi92xTkbB9padI3)
 
 ## Следующая встреча: 21 января, 2017
 <!--
