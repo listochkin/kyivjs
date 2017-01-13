@@ -15,6 +15,24 @@ layout: default
 
 Если вы хотите чем-нибудь поделиться с комьюнити, [предложите доклад](#write-anchor). Мы поможем и это будет клёвый опыт.
 
+- ![](http://frameworksdays.com/uploads/speakers/galkin.png)
+
+  >
+    [**Никита Галкин**](https://twitter.com/galk_in)  
+    [Best practices of Node.js use in production]()
+
+- ![](https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAiHAAAAJGJmMjM0MzRmLTk0NjQtNDFkNS1hOTA1LTY5YzhmODEyMWM3YQ.jpg)
+
+  >
+    [**Алексей Распопов**](https://twitter.com/alexeyraspopov)  
+    [TBA]()
+
+- ![]()
+
+  >
+    [**Тимур Шемсединов**](https://twitter.com/ImpressAppSrv) и **Алексей Орленко**  
+    [TBA]()
+
 ## Предыдущие встречи
 
 ### [30 января, 2016](http://dou.ua/calendar/9623/), [Видео](javascript:alert\('Скоро будут'\);)
