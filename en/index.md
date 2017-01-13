@@ -30,7 +30,7 @@ If you want to share something with the community, we encourage you to [drop us 
 - ![]()
 
   >
-    [**Timur Shemsedinov**](https://twitter.com/ImpressAppSrv) и **Alexey Orlenko**  
+    [**Timur Shemsedinov**](https://twitter.com/ImpressAppSrv) && **Alexey Orlenko**  
     [TBA]()
 
 ## Previous Speakers
