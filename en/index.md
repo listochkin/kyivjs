@@ -15,6 +15,24 @@ layout: default
 
 If you want to share something with the community, we encourage you to [drop us a line](#write-anchor).
 
+- ![](http://frameworksdays.com/uploads/speakers/galkin.png)
+
+  >
+    [**Nikita Galkin**](https://twitter.com/galk_in)  
+    [Best practices of Node.js use in production]()
+
+- ![](https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAiHAAAAJGJmMjM0MzRmLTk0NjQtNDFkNS1hOTA1LTY5YzhmODEyMWM3YQ.jpg)
+
+  >
+    [**Alexey Raspopov**](https://twitter.com/alexeyraspopov)  
+    [TBA]()
+
+- ![]()
+
+  >
+    [**Timur Shemsedinov**](https://twitter.com/ImpressAppSrv) и **Alexey Orlenko**  
+    [TBA]()
+
 ## Previous Speakers
 
 ### [January 30th, 2016](http://dou.ua/calendar/9623/), [Videos](javascript:alert\('Coming soon'\);)
