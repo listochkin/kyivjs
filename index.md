@@ -25,13 +25,19 @@ layout: default
 
   >
     [**Алексей Распопов**](https://twitter.com/alexeyraspopov)  
-    [TBA]()
+    ['This time I'll build things the right way']()
 
 - ![]()
 
   >
     [**Тимур Шемсединов**](https://twitter.com/ImpressAppSrv) и **Алексей Орленко**  
     [TBA]()
+
+- ![](https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkCAAAAJDc2ZWVhODdkLWQzYWEtNDQ2Yy1hZGQxLWMyZjhhOWYzODU4Yg.jpg)
+
+  >
+    [**Александр Шпак**](https://www.linkedin.com/in/oleksandr-shpak-8915376)
+    [Z]()
 
 ## Предыдущие встречи
 

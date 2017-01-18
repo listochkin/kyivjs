@@ -25,13 +25,19 @@ If you want to share something with the community, we encourage you to [drop us 
 
   >
     [**Alexey Raspopov**](https://twitter.com/alexeyraspopov)  
-    [TBA]()
+    ['This time I'll build things the right way']()
 
 - ![]()
 
   >
     [**Timur Shemsedinov**](https://twitter.com/ImpressAppSrv) && **Alexey Orlenko**  
     [TBA]()
+
+- ![](https://media.licdn.com/mpr/mpr/shrinknp_400_400/AAEAAQAAAAAAAAkCAAAAJDc2ZWVhODdkLWQzYWEtNDQ2Yy1hZGQxLWMyZjhhOWYzODU4Yg.jpg)
+
+  >
+    [**Oleksandr Shpak**](https://www.linkedin.com/in/oleksandr-shpak-8915376)
+    [Z]()
 
 ## Previous Speakers
 
