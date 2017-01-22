@@ -5,9 +5,9 @@ layout: default
   - # ![KyivJS](/static/kyiv-js-rectangle-no-alpha.png)
   - [Twitter](https://twitter.com/kyivjs)
   - [Gitter](https://gitter.im/dev-ua/frontend-ua/kyivjs)
-  - [Регистрация](https://goo.gl/forms/m2Hi92xTkbB9padI3)
+  - [Регистрация <br/> Скоро откроется]()
 
-## Следующая встреча: 21 января, 2017
+## Следующая встреча: 11 февраля, 2017
 <!--
 [Донская 4а](https://maps.yandex.ua/-/CVw9rZop) - - - [Digital Future](http://digital-future.org/) + [The App Solutions](http://theappsolutions.com/)
 -->
@@ -15,31 +15,33 @@ layout: default
 
 Если вы хотите чем-нибудь поделиться с комьюнити, [предложите доклад](#write-anchor). Мы поможем и это будет клёвый опыт.
 
-- ![](http://frameworksdays.com/uploads/speakers/galkin.png)
-
-  >
-    [**Никита Галкин**](https://twitter.com/galk_in)  
-    [Best practices of Node.js use in production]()
-
-- ![](/static/speakers/alexey-raspopov.jpg)
-
-  >
-    [**Алексей Распопов**](https://twitter.com/alexeyraspopov)  
-    ['This time I'll build things the right way']()
-
-- ![](/static/speakers/alexey-orlenko.jpg)
-
-  >
-    [**Алексей Орленко**](https://www.linkedin.com/in/alexeyorlenko)  
-    [«Путешествие вглубь Node.js» или как начать писать RPC и случайно ускорить node_redis в 10 раз]()
-
-- ![](/static/speakers/oleksandr-shpak.jpg)
-
-  >
-    [**Александр Шпак**](https://www.linkedin.com/in/oleksandr-shpak-8915376)  
-    [Structure-event-based programming model in "z" framework]()
-
 ## Предыдущие встречи
+
+### [21 января, 2017](https://dou.ua/calendar/13768/), [Видео](javascript:alert\('Скоро будут'\);)
+
+  - ![](http://frameworksdays.com/uploads/speakers/galkin.png)
+
+    >
+      [**Никита Галкин**](https://twitter.com/galk_in)  
+      [Best practices of Node.js use in production]()
+
+  - ![](/static/speakers/alexey-raspopov.jpg)
+
+    >
+      [**Алексей Распопов**](https://twitter.com/alexeyraspopov)  
+      ['This time I'll build things the right way']()
+
+  - ![](/static/speakers/alexey-orlenko.jpg)
+
+    >
+      [**Алексей Орленко**](https://www.linkedin.com/in/alexeyorlenko)  
+      [«Путешествие вглубь Node.js» или как начать писать RPC и случайно ускорить node_redis в 10 раз]()
+
+  - ![](/static/speakers/oleksandr-shpak.jpg)
+
+    >
+      [**Александр Шпак**](https://www.linkedin.com/in/oleksandr-shpak-8915376)  
+      [Structure-event-based programming model in "z" framework]()
 
 ### [30 января, 2016](http://dou.ua/calendar/9623/), [Видео](javascript:alert\('Скоро будут'\);)
 

@@ -5,9 +5,9 @@ layout: default
   - # ![KyivJS](/static/kyiv-js-rectangle-no-alpha.png)
   - [Twitter](https://twitter.com/kyivjs)
   - [Gitter](https://gitter.im/dev-ua/frontend-ua/kyivjs)
-  - [Registration](https://goo.gl/forms/m2Hi92xTkbB9padI3)
+  - [Registration <br /> Coming soon]()
 
-## Upcoming Event: January 21st, 2017
+## Upcoming Event: February 11th, 2017
 <!--
 [Donskaya 4а](https://maps.yandex.ua/-/CVw9rZop) - - - [Digital Future](http://digital-future.org/) + [The App Solutions](http://theappsolutions.com/)
 -->
@@ -15,31 +15,35 @@ layout: default
 
 If you want to share something with the community, we encourage you to [drop us a line](#write-anchor).
 
-- ![](http://frameworksdays.com/uploads/speakers/galkin.png)
 
-  >
-    [**Nikita Galkin**](https://twitter.com/galk_in)  
-    [Best practices of Node.js use in production]()
-
-- ![](/static/speakers/alexey-raspopov.jpg)
-
-  >
-    [**Alexey Raspopov**](https://twitter.com/alexeyraspopov)  
-    ['This time I'll build things the right way']()
-
-- ![](/static/speakers/alexey-orlenko.jpg)
-
-  >
-    [**Alexey Orlenko**](https://www.linkedin.com/in/alexeyorlenko)  
-    ['Diving into Node.js' or how to start writing RPC and accidentally make node_redis 10 times faster]()
-
-- ![](/static/speakers/oleksandr-shpak.jpg)
-
-  >
-    [**Oleksandr Shpak**](https://www.linkedin.com/in/oleksandr-shpak-8915376)  
-    [Structure-event-based programming model in "z" framework]()
 
 ## Previous Speakers
+
+### [January 21st, 2017](https://dou.ua/calendar/13768/), [Videos](javascript:alert\('Coming soon'\);)
+
+  - ![](http://frameworksdays.com/uploads/speakers/galkin.png)
+
+    >
+      [**Nikita Galkin**](https://twitter.com/galk_in)  
+      [Best practices of Node.js use in production]()
+
+  - ![](/static/speakers/alexey-raspopov.jpg)
+
+    >
+      [**Alexey Raspopov**](https://twitter.com/alexeyraspopov)  
+      ['This time I'll build things the right way']()
+
+  - ![](/static/speakers/alexey-orlenko.jpg)
+
+    >
+      [**Alexey Orlenko**](https://www.linkedin.com/in/alexeyorlenko)  
+      ['Diving into Node.js' or how to start writing RPC and accidentally make node_redis 10 times faster]()
+
+  - ![](/static/speakers/oleksandr-shpak.jpg)
+
+    >
+      [**Oleksandr Shpak**](https://www.linkedin.com/in/oleksandr-shpak-8915376)  
+      [Structure-event-based programming model in "z" framework]()
 
 ### [January 30th, 2016](http://dou.ua/calendar/9623/), [Videos](javascript:alert\('Coming soon'\);)
 
