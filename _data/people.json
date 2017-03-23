@@ -245,7 +245,7 @@
       "ru": "Алексей Распопов",
       "en": "Alexey Raspopov"
     },
-    "homepage": "https://www.linkedin.com/profile/view?id=126122043",
+    "homepage": "https://linkedin.com/in/alexey-raspopov-3632a336",
     "avatar": "speakers/alexey-raspopov.jpg",
     "contact": ""
   },
@@ -259,14 +259,24 @@
     "avatar": "speakers/anton-kazka.jpg",
     "contact": ""
   },
-  "safronov": {
-    "id": "safronov",
+  "safronovy": {
+    "id": "safronovy",
     "name": {
       "ru": "Евгений Сафронов",
-      "en": "Yevgen Safronov"
+      "en": "Eugene Safronov"
     },
-    "homepage": "http://ua.linkedin.com/pub/eugene-safronov/15/3a/392",
+    "homepage": "https://linkedin.com/in/yevgen-safronov-39203a15/",
     "avatar": "speakers/yevgen-safronov.jpg",
+    "contact": ""
+  },
+  "safronove": {
+    "id": "safronove",
+    "name": {
+      "ru": "Евгений Сафронов",
+      "en": "Eugene Safronov"
+    },
+    "homepage": "https://linkedin.com/in/eugene-safronov-b7b257b0",
+    "avatar": "speakers/evgeniy-safronov.jpg",
     "contact": ""
   },
   "filatov": {
@@ -409,30 +419,53 @@
     "avatar": "speakers/nikita-galkin.jpg",
     "contact": ""
   },
+  "sorokobatko": {
+    "id": "sorokobatko",
+    "name": {
+      "ru": "Валерий Сорокобатько",
+      "en": "Valeriy Sorokobatko"
+    },
+    "homepage": "https://twitter.com/tuchk4",
+    "avatar": "speakers/valeriy-sorokobatko.jpg",
+    "contact": ""
+  },
+  "klymov": {
+    "id": "klymov",
+    "name": {
+      "ru": "Илья Климов",
+      "en": "Illya Klymov"
+    },
+    "homepage": "https://www.linkedin.com/in/illyaklymov",
+    "avatar": "speakers/illya-klymov.jpg",
+    "contact": ""
+  },
+  "shumada": {
+    "id": "shumada",
+    "name": {
+      "ru": "Андрей Шумада",
+      "en": "Andrii Shumada"
+    },
+    "homepage": "https://www.linkedin.com/in/andriishumada",
+    "avatar": "speakers/andrii-shumada.jpg",
+    "contact": ""
+  },
+  "shehet": {
+    "id": "shehet",
+    "name": {
+      "ru": "Гриша Шехет",
+      "en": "Gregory Shehet"
+    },
+    "homepage": "https://www.linkedin.com/in/gregory-shehet-9a6a8983",
+    "avatar": "speakers/gregory-shehet.jpg",
+    "contact": ""
+  }
 }
 
 
 
 
-Gregory Shehet
-      "ru": "Гриша Шехет",
-    "homepage": "https://www.linkedin.com/in/gregory-shehet-9a6a8983",
-    "avatar": "speakers/gregory-shehet.jpg",
 
-Andrii Shumada
-      "ru": "Андрій Шумада",
-    "homepage": "https://www.linkedin.com/in/andriishumada",
-    "avatar": "speakers/andrii-shumada.jpg",
 
-Illya Klymov
-      "ru": "Илья Климов",
-    "homepage": "https://www.linkedin.com/in/illyaklymov",
-    "avatar": "speakers/illya-klymov.jpg",
-
-Valeriy Sorokobatko
-      "ru": "Валерий Сорокобатько",
-    "homepage": "https://twitter.com/tuchk4",
-    "avatar": "speakers/valeriy-sorokobatko.j,pg"
 
 
 

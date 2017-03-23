@@ -13,13 +13,36 @@
 
   <body>
     {% include header.html %}
-    <!--{{content}}-->
-    {% assign events = (site.events | sort: 'sortDate' | where:'lang', page.lang) %}
+    {% assign events = (site.events | sort: 'sortDate' | where:'lang', page.lang) | reverse %}
     {% for event in events %}
       <h2>{{ event.title }}</h2>
+      <h3><a href="{{event.dou}}">каледарь DOU</a></h3>
+      <ul>
+        {% assign people = site.data.people %}
+        {% for id in event.speakers %}
+          {% assign speaker = site.data.people[id] %}
+          <li>
+            <figure>
+              <img src="/static/{{speaker.avatar}}" alt="">
+            </figure>
+            <h4><a href="{{speaker.homepage}}">{{speaker.name[page.lang]}}</a></h4>
+            {% assign topics = event.topics %}
+            {% if event.topics != nil %}
+              <h5>
+                {% assign talkLink = topics[speaker.id].link %}
+                {% assign talkName = topics[speaker.id].name %}
+                {% if talkLink != nil %}
+                  <a href="{{talkLink}}">{{talkName}}</a>
+                {% else %}
+                  {{talkName}}
+                {% endif %}
+              </h5>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
     {% endfor %}
 
     {% include footer.html %}
   </body>
-
 </html>

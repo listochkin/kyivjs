@@ -1,0 +1,20 @@
+---
+sortDate: 20160130
+title: 30 Января 2016
+lang: ru
+speakers:
+  - zaichenko
+  - ponomarenko
+  - shvayka
+  - safronove
+topics:
+  zaichenko:
+    name: Best practices - Angular JS
+  ponomarenko:
+    name: Плагіни для JavaScript ігор
+    link: http://slides.com/theshock/javascript-plugins/
+  shvayka:
+    name: ES6 Classes
+  safronove:
+    name: Scala.JS
+---
