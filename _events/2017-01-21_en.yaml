@@ -1,0 +1,24 @@
+---
+sortDate: 20170121
+title: 21 January 2017
+dou: https://dou.ua/calendar/13768/
+lang: ru
+speakers:
+  - galkin
+  - raspopov
+  - orlenko
+  - shpak
+topics:
+  galkin:
+    name: Best practices of Node.js use in production
+    link: https://galkin.github.io/kyivjs-2017
+  raspopov:
+    name: This time I'll build things the right way
+    link: https://alexeyraspopov.github.io/the-right-way
+  orlenko:
+    name: Diving into Node.js or how to start writing RPC and accidentally make node_redis 10 times faster
+    link: https://aqrln.github.io/kyivjs-2017
+  shpak:
+    name: Structure-event-based programming model in "z" framework
+    link: https://drive.google.com/file/d/0B5hEGrbXzEkMdW9NV21qdG9jeVk/view
+---

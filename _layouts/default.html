@@ -16,7 +16,12 @@
     {% assign events = (site.events | sort: 'sortDate' | where:'lang', page.lang) | reverse %}
     {% for event in events %}
       <h2>{{ event.title }}</h2>
-      <h3><a href="{{event.dou}}">каледарь DOU</a></h3>
+      {% if event.playlist != nil %}
+        {{event.playlist}}
+      {% endif %}
+      {% if event.dou != nil %}
+        <h3><a href="{{event.dou}}">каледарь DOU</a></h3>
+      {% endif %}
       <ul>
         {% assign people = site.data.people %}
         {% for id in event.speakers %}

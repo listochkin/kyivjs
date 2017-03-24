@@ -1,0 +1,24 @@
+---
+sortDate: 20170211
+title: 11 Февраля 2017
+lang: ru
+playlist: <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLxw9RJPDS60rSfHr_srQ2xgqBgjeYBUhe" frameborder="0" allowfullscreen></iframe>
+speakers:
+  - shehet
+  - shumada
+  - klymov
+  - sorokobatko
+topics:
+  shehet:
+    name: Styling React App or CSS in JS
+    link: https://drive.google.com/file/d/0B65dEGRmB3ViWmZJem9DQi1BblE/view?usp=sharing
+  shumada:
+    name: Dude, where are my logs?
+    link: https://docs.google.com/presentation/d/1mxZUZZe2Yo5WHGKWGOsGXUsTkX4EAiTdW-4e0bvbt-s/edit
+  klymov:
+    name: 'TurboFan: yet another optimization engine'
+    link: https://docs.google.com/presentation/d/1uO_tx78nEG5Q7wh2MIfzLo5KjjEgBs_RMmSL9UQQQgI/edit
+  sorokobatko:
+    name: Why I love Create React App and don't want to eject
+    link: https://www.icloud.com/keynote/0Y-YSxs_21K-F3zftvVdU0oUw#Why_I_Love_Create_React_App
+---
