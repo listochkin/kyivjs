@@ -1,3 +1,45 @@
+{% assign commonStrings = include.commonStrings %}
+{% assign people = site.data.people %}
+<footer class="footer">
+  <a id="write-anchor"></a>
+  <article class="orgs default-text">
+    <h1>{{commonStrings.orgs}}</h1>
+    <ul class="humans">
+      {% for id in page.orgs %}
+        {% assign human = people[id] %}
+        <li class="human">
+          <figure class="userpic human__userpic">
+            <img class="userpic__image" src="{{human.avatar}}" alt="">
+          </figure>
+          <div>
+            <h4 class="human__name"><a href="{{human.homepage}}" target="_blank">{{human.name[page.lang]}}</a></h4>
+            <h5 class="human__contact"><a href="{{human.contact}}" target="_blank">{{human.contact}}</a></h5>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+
+
+  </article>
+  <article class="orgs default-text">
+    <h1>{{commonStrings.founders}}</h1>
+    <ul class="humans">
+      {% for id in page.founders %}
+        {% assign human = people[id] %}
+        <li class="human">
+          <figure class="userpic human__userpic">
+            <img class="userpic__image" src="{{human.avatar}}" alt="">
+          </figure>
+          <div>
+            <h4 class="human__name"><a href="{{human.homepage}}" target="_blank">{{human.name[page.lang]}}</a></h4>
+            <h5 class="human__contact"><a href="{{human.contact}}" target="_blank">{{human.contact}}</a></h5>
+          </div>
+        </li>
+      {% endfor %}
+    </ul>
+  </article>
+</footer>
+
 <script>
 
   !function(k,y,i,v,j,s){k.GoogleAnalyticsObject=i;k[i]||(k[i]=function(){

@@ -4,14 +4,14 @@ title: 31 Марта 2017
 lang: en
 upcoming: true
 location: wix
-regLink: 'http://'
-regAnnounce: 'Registration will open at March, 14th @ 12am'
+# regLink: 'http://'
+regAnnounce: 'Registration will open at Tuesday, 28th of March @ 14am.'
 speakers:
   - shvayka
-  - voronianski
+  - mostovenko
 topics:
   shvayka:
-    name: Styling React App or CSS in JS
+    name: A word on regular expressions
   voronianski:
-    name: Dude, where are my logs?
+    name: l10n in ES6 with c-3po
 ---

@@ -1,0 +1,277 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+
+/* =================== */
+
+body {
+  position: relative;
+  font: 16px/1.5 'Open Sans', Helvetica, sans-serif;
+}
+
+.github-corner {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+}
+
+.header {
+  position: relative;
+  overflow: hidden;
+
+  background: #747D00;
+}
+
+.header__illustration {
+  position: absolute;
+  left: 50%;
+  bottom: -20px;
+  z-index: -1;
+  width: 120%;
+  transform: translateX(-50%);
+  filter: grayscale(0.5) saturate(2) blur(6px) opacity(0.8);
+}
+
+.header__layout {
+  display: flex;
+  align-items: center;
+}
+
+.header__note {
+  color: #fff;
+  font-size: 24px;
+  margin-left: 250px;
+}
+
+.header__note a {
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  margin: 20px 40px;
+}
+
+.logo__image {
+  position: relative;
+  display: inline-block;
+  width: 200px;
+  height: 200px;
+
+  border-radius: 100%;
+
+  background: #fff url('/static/kyivjs.svg') center / 85% no-repeat;
+}
+
+.logo__type {
+  font-size: 45px;
+  font-weight: bold;
+  margin-left: 10px;
+  color: #fff;
+}
+
+.header-links {
+  margin-right: 40px;
+}
+
+.header-links__item {
+  display: inline-block;
+}
+
+.header-links__link {
+  display: inline-block;
+  padding: 3px 10px;
+  background: #fff;
+}
+
+.main {
+  padding: 0 100px 100px 250px;
+}
+
+
+.default-text > h1 {
+  font-size: 32px;
+}
+
+.default-text > h2 {
+  font-size: 26px;
+}
+
+.default-text > h3 {
+  font-size: 21px;
+}
+
+
+.previous,
+.next {
+  margin-top: 60px;
+}
+
+.next {
+  padding-bottom: 30px;
+  border-bottom: 2px solid rgba(0,0,0,0.15);
+}
+
+.youtube {
+  width: 100%;
+  height: 40vmax;
+  margin: 40px 0
+}
+
+.event {
+  margin-top: 40px;
+  padding-bottom: 40px;
+}
+
+.previous .event {
+  border-bottom: 1px solid rgba(0,0,0,0.15);
+}
+
+.event__header {
+  display: flex;
+}
+
+.event__title {
+  font-size: 21px;
+  flex-grow: 1;
+}
+
+
+.human {
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  margin-top: 40px;
+  min-width: 400px;
+  padding-right: 50px;
+}
+
+.human__userpic {
+  margin-right: 40px;
+  flex-shrink: 0;
+}
+
+.human__name {
+  font-size: 26px;
+}
+
+.human__talk {
+  font-size: 21px;
+  line-height: 1.3;
+
+  margin-top: 10px;
+}
+
+.userpic {
+  display: inline-block;
+  position: relative;
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+
+  overflow: hidden;
+  box-shadow: inset 0 0 1px rgba(0,0,0,0.1);
+}
+
+.userpic__image {
+  position: absolute;
+  left: -3px;
+  top: -3px;
+  z-index: -1;
+  width: calc(100% + 6px);
+  height: calc(100% + 6px);
+
+  background: rgba(0,0,0,0.05);
+}
+
+.upcoming-info {
+  margin-top: 40px;
+}
+
+.upcoming-info__note {
+  color: #cb0000;
+}
+
+.upcoming-info__location {
+  font-size: 21px;
+  margin-top: 20px;
+}
+
+.upcoming-info__show-map {
+  cursor: pointer;
+  border-bottom: 1px dashed;
+}
+
+.upcoming-info__map {
+  overflow: hidden;
+  height: 0;
+  will-change: height;
+  transition: height 0.2s ease-out;
+
+  margin-top: 10px;
+
+  background: rgba(0,0,0,0.05);
+}
+
+.upcoming-info__map-toggler {
+  visibility: hidden;
+  position: fixed;
+  left: -100%;
+  top: -100%;
+}
+
+.upcoming-info__map-toggler:checked ~ .upcoming-info__map {
+  height: 400px;
+}
+
+

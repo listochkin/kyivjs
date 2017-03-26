@@ -1,37 +1,38 @@
 {% assign event = include.event %}
 <article class="event">
-  <header>
-    <h1><label for="{{event.sortDate}}">{{ event.title }}</label></h1>
+  <header class="event__header">
+    <h1 class="event__title">{{ event.title }}</h1>
     {% if event.dou != nil %}
-      <h2><a href="{{event.dou}}" target="_blank">каледарь DOU</a></h2>
+      <h2 class="event__dou"><a href="{{event.dou}}" target="_blank">каледарь DOU</a></h2>
     {% endif %}
   </header>
-  <input type="checkbox" id="{{event.sortDate}}">
   <div class="event__content">
     {% if event.playlist != nil %}
       {{event.playlist}}
     {% endif %}
-    <ul>
+    <ul class="humans">
       {% assign people = site.data.people %}
       {% for id in event.speakers %}
-        {% assign speaker = site.data.people[id] %}
-        <li>
-          <figure>
-            <img src="/static/{{speaker.avatar}}" alt="">
+        {% assign human = site.data.people[id] %}
+        <li class="human">
+          <figure class="userpic human__userpic">
+            <img class="userpic__image" src="{{human.avatar}}" alt="">
           </figure>
-          <h4><a href="{{speaker.homepage}}">{{speaker.name[page.lang]}}</a></h4>
-          {% assign topics = event.topics %}
-          {% if event.topics != nil %}
-            <h5>
-              {% assign talkLink = topics[speaker.id].link %}
-              {% assign talkName = topics[speaker.id].name %}
-              {% if talkLink != nil %}
-                <a href="{{talkLink}}">{{talkName}}</a>
-              {% else %}
-                {{talkName}}
-              {% endif %}
-            </h5>
-          {% endif %}
+          <div>
+            <h4 class="human__name"><a href="{{human.homepage}}" target="_blank">{{human.name[page.lang]}}</a></h4>
+            {% assign topics = event.topics %}
+            {% if event.topics != nil %}
+              <h5 class="human__talk">
+                {% assign talkLink = topics[human.id].link %}
+                {% assign talkName = topics[human.id].name %}
+                {% if talkLink != nil %}
+                  <a href="{{talkLink}}" target="_blank">{{talkName}}</a>
+                {% else %}
+                  {{talkName}}
+                {% endif %}
+              </h5>
+            {% endif %}
+          </div>
         </li>
       {% endfor %}
     </ul>

@@ -14,33 +14,37 @@
   <body>
     {% assign commonStrings = site.data.common[page.lang] %}
     {% include header.html %}
-    <main>
-      <p>{{page.callForSpeakers}}</p>
-      <h1>{{page.nextTitle}}</h1>
+    <main class="main">
+      <section class="next default-text">
+        <h1>{{page.nextTitle}}</h1>
 
-      {% assign events = (site.events | sort: 'sortDate' | where:'lang', page.lang) | reverse %}
-      <div>
+        {% assign events = (site.events | sort: 'sortDate' | where:'lang', page.lang) | reverse %}
         {% for event in events %}
           {% if event.upcoming == true %}
             {% include event.html event=event %}
-            <p>
-              {{event.regAnnounce}}
-              {% if event.regLink %}
-                <br><a href="{{event.regLink}}">{{commonStrings.register}}</a>
-              {% endif %}
-            </p>
-            {% assign location = site.data.locations[event.location][page.lang] %}
-            <address>
-              {{location.name}}, {{location.address}}
-            </address>
-            <div>
-              {{location.map}}
-            </div>
+            <article class="upcoming-info">
+              <p class="upcoming-info__note">
+                {{event.regAnnounce}}
+                {% if event.regLink %}
+                  <br><a class="upcoming-info__link" href="{{event.regLink}}">{{commonStrings.register}}</a>
+                {% endif %}
+              </p>
+              {% assign location = site.data.locations[event.location][page.lang] %}
+              <address class="upcoming-info__location">
+                <label class="upcoming-info__show-map" for="{{event.sortDate}}map" title="{{commonStrings.showMap}}">
+                  {{location.name}}, {{location.address}}
+                </label>
+              </address>
+              <input class="upcoming-info__map-toggler" type="checkbox" id="{{event.sortDate}}map">
+              <div class="upcoming-info__map">
+                {{location.map}}
+              </div>
+            </article>
           {% endif %}
         {% endfor %}
-      </div>
+      </section>
 
-      <section>
+      <section class="previous default-text">
         <h2>{{page.prevTitle}}</h2>
         {% for event in events %}
           {% if event.upcoming != true %}
@@ -49,6 +53,6 @@
         {% endfor %}
       </section>
     </main>
-    {% include footer.html %}
+    {% include footer.html commonStrings=commonStrings %}
   </body>
 </html>

@@ -2,7 +2,7 @@
 sortDate: 20151205
 title: 5 Декабря 2015
 lang: ru
-playlist: <iframe width="1280" height="720" src="https://www.youtube.com/embed/videoseries?list=PLxw9RJPDS60qUL9tiH3Hh-xB8rY5xV2Cr" frameborder="0" allowfullscreen></iframe>
+playlist: <iframe class="youtube" src="https://www.youtube.com/embed/videoseries?list=PLxw9RJPDS60qUL9tiH3Hh-xB8rY5xV2Cr" frameborder="0" allowfullscreen></iframe>
 speakers:
   - lavriv
   - muzalevskyi

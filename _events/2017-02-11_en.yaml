@@ -2,7 +2,7 @@
 sortDate: 20170211
 title: 11 February 2017
 lang: en
-playlist: <iframe width="1280" height="720" src="https://www.youtube.com/embed/videoseries?list=PLxw9RJPDS60rSfHr_srQ2xgqBgjeYBUhe" frameborder="0" allowfullscreen></iframe>
+playlist: <iframe class="youtube" src="https://www.youtube.com/embed/videoseries?list=PLxw9RJPDS60rSfHr_srQ2xgqBgjeYBUhe" frameborder="0" allowfullscreen></iframe>
 speakers:
   - shehet
   - shumada
