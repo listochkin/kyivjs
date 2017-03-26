@@ -135,7 +135,7 @@ body {
 }
 
 .main {
-  padding: 0 100px 100px 250px;
+  padding: 0 100px 0 250px;
 }
 
 
@@ -274,4 +274,8 @@ body {
   height: 400px;
 }
 
+.footer {
+  padding: 0 100px 0 250px;
+  margin-top: 60px;
+}
 
