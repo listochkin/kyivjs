@@ -1,0 +1,38 @@
+{
+  "ciklum": {
+    "ru": {
+        "name": "Ciklum",
+        "address": "Горизонт-Парк, башня 2, ул. Николая Амосова, 12",
+        "map": "<script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A985ef5102c5c712d17d5bf4e8a05a8008dee2907405bdd81b71267f85dddd7d1&amp;width=100%25&amp;height=400&amp;lang=ru_UA&amp;scroll=true'></script>"
+    },
+    "en": {
+        "name": "Ciklum",
+        "address": "Horizon Park Tower 2, Mykoly Amosova St, 12",
+        "map": "<script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3A985ef5102c5c712d17d5bf4e8a05a8008dee2907405bdd81b71267f85dddd7d1&amp;width=100%25&amp;height=400&amp;lang=en&amp;scroll=true'></script>"
+    }
+  },
+  "digitalFuture": {
+    "ru": {
+        "name": "Digital Future",
+        "address": "Донская 4а",
+        "map": "<script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaf4d365f9fe889ebebcfdb4ef7ae646bf597c96dbbc62ae4375f68c9f62c5489&amp;width=100%25&amp;height=400&amp;lang=ru_UA&amp;scroll=true'></script>"
+    },
+    "en": {
+        "name": "Digital Future",
+        "address": "Donskaya 4а",
+        "map": "<script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aaf4d365f9fe889ebebcfdb4ef7ae646bf597c96dbbc62ae4375f68c9f62c5489&amp;width=100%25&amp;height=400&amp;lang=en&amp;scroll=true'></script>"
+    }
+  },
+  "wix": {
+    "ru": {
+        "name": "Wix",
+        "address": "Паньковская 14a",
+        "map": "<script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeafde18a9ee9732ea1d244e06bc868d40597ecd99c160fcd95ec07782fb60f70&amp;width=100%25&amp;height=400&amp;lang=ru_UA&amp;scroll=true'></script>"
+    },
+    "en": {
+        "name": "Wix",
+        "address": "Pankivska 14a",
+        "map": "<script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeafde18a9ee9732ea1d244e06bc868d40597ecd99c160fcd95ec07782fb60f70&amp;width=100%25&amp;height=400&amp;lang=en&amp;scroll=true'></script>"
+    }
+  },
+}

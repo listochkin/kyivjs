@@ -1,0 +1,17 @@
+---
+sortDate: 20170331
+title: 31 Марта 2017
+lang: ru
+upcoming: true
+location: wix
+regLink: 'http://'
+regAnnounce: 'Регистрация откроется 14 марта в 12:00'
+speakers:
+  - shvayka
+  - voronianski
+topics:
+  shvayka:
+    name: Styling React App or CSS in JS
+  voronianski:
+    name: Dude, where are my logs?
+---
