@@ -1,0 +1,21 @@
+---
+sortDate: 20160130
+title: 30 січня 2016
+dou: http://dou.ua/calendar/9623/
+lang: ua
+speakers:
+  - zaichenko
+  - ponomarenko
+  - shvayka
+  - safronove
+topics:
+  zaichenko:
+    name: Best practices - Angular JS
+  ponomarenko:
+    name: Плагіни для JavaScript ігор
+    link: http://slides.com/theshock/javascript-plugins/
+  shvayka:
+    name: ES6 Classes
+  safronove:
+    name: Scala.JS
+---

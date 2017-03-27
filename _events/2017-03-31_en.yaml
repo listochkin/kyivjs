@@ -12,7 +12,7 @@ speakers:
   - mostovenko
 topics:
   shvayka:
-    name: A word on regular expressions
+    name: A Word on Regular Expressions
   mostovenko:
     name: l10n in ES6 with c-3po
 ---
