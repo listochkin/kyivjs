@@ -50,10 +50,15 @@ table {
 
 
 /* =================== */
+html {
+  font-size: 62.5%;
+  line-height: 1;
+}
 
 body {
   position: relative;
-  font: 16px/1.5 'Open Sans', Helvetica, sans-serif;
+  /*font: 16px/1.5 'Open Sans', Helvetica, sans-serif;*/
+  font-family: 'Open Sans', Helvetica, sans-serif;
 }
 
 .github-corner {

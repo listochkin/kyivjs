@@ -1,0 +1,11 @@
+@media (min-width: 48em)/*768px*/ {}
+
+@media (min-width: 48em)/*768px*/ and (max-width: 61.9375em)/*991px*/ {}
+
+@media (min-width: 62em)/*992px*/ {}
+
+@media (min-width: 62em)/*992px*/ and (max-width: 74.9375em)/*1199px*/ {}
+
+@media (min-width: 75em)/*1200px*/ {}
+
+@media screen and (max-width: 47.9375em)/*767px*/ {}
