@@ -87,12 +87,16 @@ body {
 .header__layout {
   display: flex;
   align-items: center;
+  flex-direction: column;
+  padding-bottom: 2rem;
 }
 
 .header__note {
   // color: #fff;
   font-size: 2.4em;
-  margin-left: 25rem;
+  /*margin-left: 25rem;*/
+  padding-left: 2rem;
+  padding-right: 2rem;
   line-height: 1.5;
 }
 
@@ -103,7 +107,7 @@ body {
 .logo {
   display: flex;
   align-items: center;
-
+  flex-direction: column;
   margin: 2rem 4rem;
 }
 
@@ -126,7 +130,8 @@ body {
 }
 
 .header-links {
-  margin-right: 4rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .header-links__item {
@@ -142,13 +147,15 @@ body {
 }
 
 .main {
-  padding: 0 10rem 0 25rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 
 .default-text > h1 {
   font-size: 3.2em;
   line-height: 1.5;
+  text-align: center;
 }
 
 .default-text > h2 {
@@ -177,7 +184,8 @@ body {
 }
 
 .event {
-  margin-top: 4rem;
+  text-align: center;
+  padding-top: 4rem;
   padding-bottom: 4rem;
 }
 
@@ -199,18 +207,23 @@ body {
   flex-grow: 1;
 }
 
+.humans {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
 
 .human {
   display: flex;
+  flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  margin-top: 4rem;
-  min-width: 40rem;
-  padding-right: 5rem;
+  /*min-width: 40rem;*/
+  /*padding-right: 5rem;*/
+  padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .human__userpic {
-  margin-right: 4rem;
   flex-shrink: 0;
 }
 
