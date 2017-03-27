@@ -1,7 +1,9 @@
 {% assign event = include.event %}
 <article class="event">
   <header class="event__header">
-    <h1 class="event__title">{{ event.title }}</h1>
+    <h1 class="event__title">
+      {{ event.title }}{% if event.upcoming and event.time %}, {{event.time}}.{% endif %}
+    </h1>
     {% if event.dou != nil %}
       <h2 class="event__dou"><a href="{{event.dou}}" target="_blank">каледарь DOU</a></h2>
     {% endif %}
