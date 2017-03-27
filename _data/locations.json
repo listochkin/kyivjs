@@ -35,7 +35,7 @@
 },
 "wix": {
     "ua": {
-        "name": "Офис Wix",
+        "name": "Офіс Wix",
         "address": "вул. Паньківська, 14a",
         "map": "<script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeafde18a9ee9732ea1d244e06bc868d40597ecd99c160fcd95ec07782fb60f70&amp;width=100%25&amp;height=400&amp;lang=ru_UA&amp;scroll=true'></script>"
     },
