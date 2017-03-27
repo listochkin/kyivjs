@@ -93,6 +93,7 @@ body {
   // color: #fff;
   font-size: 2.4em;
   margin-left: 25rem;
+  line-height: 1.5;
 }
 
 .header__note a {
@@ -136,6 +137,8 @@ body {
   display: inline-block;
   padding: .3rem 1rem;
   background: #fff;
+  font-size: 1.6em;
+  line-height: 1.5;
 }
 
 .main {
@@ -145,6 +148,7 @@ body {
 
 .default-text > h1 {
   font-size: 3.2em;
+  line-height: 1.5;
 }
 
 .default-text > h2 {
@@ -177,6 +181,11 @@ body {
   padding-bottom: 4rem;
 }
 
+.event__dou {
+  font-size: 1.6em;
+  line-height: 1.5;
+}
+
 .previous .event {
   border-bottom: .1rem solid rgba(0, 0, 0, .15);
 }
@@ -207,6 +216,12 @@ body {
 
 .human__name {
   font-size: 2.6em;
+  line-height: 1.5;
+}
+
+.human__contact {
+  font-size: 1.6em;
+  line-height: 1.5;
 }
 
 .human__talk {
@@ -244,6 +259,8 @@ body {
 
 .upcoming-info__note {
   color: #cb0000;
+  font-size: 1.6em;
+  line-height: 1.5;
 }
 
 .upcoming-info__location {
