@@ -7,4 +7,11 @@ speakers:
   - lavriv
   - muzalevskyi
   - sychov
+topics:
+  muzalevskyi: 
+    name: Interactive Path Search in Javascript
+  lavriv: 
+    name: Data Access with OrbitJS
+  sychov: 
+    name: Learning How to Learn
 ---
