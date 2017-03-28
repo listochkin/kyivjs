@@ -2,6 +2,7 @@
   "klymyshyn": {
     "id": "klymyshyn",
     "name": {
+      "ua": "Максим Климишин",
       "ru": "Максим Климишин",
       "en": "Max Klymyshyn"
     },
@@ -12,6 +13,7 @@
   "djafarov": {
     "id": "djafarov",
     "name": {
+      "ua": "Ельдар Джафаров",
       "ru": "Эльдар Джафаров",
       "en": "Eldar Djafarov"
     },
@@ -22,451 +24,496 @@
   "listochkin": {
     "id": "listochkin",
     "name": {
-      "ru": "Андрей Листочкин",
-      "en": "Andrew Listochkin"
-    },
-    "homepage": "https://twitter.com/listochkin",
-    "avatar": "/static/speakers/andrey-listochkin.jpg",
-    "contact": "https://gitter.im/listochkin"
+     "ua": "Андрій Лісточкін",
+     "ru": "Андрей Листочкин",
+     "en": "Andrew Listochkin"
+   },
+   "homepage": "https://twitter.com/listochkin",
+   "avatar": "/static/speakers/andrey-listochkin.jpg",
+   "contact": "https://gitter.im/listochkin"
+ },
+ "john": {
+  "id": "john",
+  "name": {
+    "ua": "Олександр Лапшин",
+    "ru": "Александр Лапшин",
+    "en": "Alex Lapshyn"
   },
-  "john": {
-    "id": "john",
-    "name": {
-      "ru": "Александр Лапшин",
-      "en": "Alex Lapshyn"
-    },
-    "homepage": "https://twitter.com/sudodoki",
-    "avatar": "/static/speakers/alex-lapshyn.jpg",
-    "contact": "https://gitter.im/sudodoki"
+  "homepage": "https://twitter.com/sudodoki",
+  "avatar": "/static/speakers/alex-lapshyn.jpg",
+  "contact": "https://gitter.im/sudodoki"
+},
+"naumenko": {
+  "id": "naumenko",
+  "name": {
+    "ua": "Євген Науменко",
+    "ru": "Евгений Науменко",
+    "en": "Eugene Naumenko"
   },
-  "naumenko": {
-    "id": "naumenko",
-    "name": {
-      "ru": "Евгений Науменко",
-      "en": "Eugene Naumenko"
-    },
-    "homepage": "https://twitter.com/sudodoki",
-    "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "contact": ""
+  "homepage": "https://twitter.com/sudodoki",
+  "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+  "contact": ""
+},
+"stepanenko": {
+  "id": "stepanenko",
+  "name": {
+    "ua": "Віталій Степаненко",
+    "ru": "Виталий Степаненко",
+    "en": "Vitaliy Stepanenko"
   },
-  "stepanenko": {
-    "id": "stepanenko",
-    "name": {
-      "ru": "Виталий Степаненко",
-      "en": "Vitaliy Stepanenko"
-    },
-    "homepage": "",
-    "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "contact": ""
+  "homepage": "",
+  "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+  "contact": ""
+},
+"lvivski": {
+  "id": "lvivski",
+  "name": {
+    "ua": "Єгор Львівський",
+    "ru": "Егор Львовский",
+    "en": "Yehor Lvivski"
   },
-  "lvivski": {
-    "id": "lvivski",
-    "name": {
-      "ru": "Егор Львовский",
-      "en": "Yehor Lvivski"
-    },
-    "homepage": "https://ua.linkedin.com/in/lvivski",
-    "avatar": "/static/speakers/yehor-lvivski.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/lvivski",
+  "avatar": "/static/speakers/yehor-lvivski.jpg",
+  "contact": ""
+},
+"ponomarenko": {
+  "id": "ponomarenko",
+  "name": {
+    "ua": "Ярослав Пономаренко",
+    "ru": "Ярослав Пономаренко",
+    "en": "Yaroslav Ponomarenko"
   },
-  "ponomarenko": {
-    "id": "ponomarenko",
-    "name": {
-      "ru": "Ярослав Пономаренко",
-      "en": "Yaroslav Ponomarenko"
-    },
-    "homepage": "https://ua.linkedin.com/in/yponomarenko",
-    "avatar": "/static/speakers/yaroslav-ponomarenko.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/yponomarenko",
+  "avatar": "/static/speakers/yaroslav-ponomarenko.jpg",
+  "contact": ""
+},
+"zharkov": {
+  "id": "zharkov",
+  "name": {
+    "ua": "Євген Жарков",
+    "ru": "Евгений Жарков",
+    "en": "Eugene Zharkov"
   },
-  "zharkov": {
-    "id": "zharkov",
-    "name": {
-      "ru": "Евгений Жарков",
-      "en": "Eugene Zharkov"
-    },
-    "homepage": "https://ua.linkedin.com/in/eugenezharkov",
-    "avatar": "/static/speakers/eugene-zharkov.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/eugenezharkov",
+  "avatar": "/static/speakers/eugene-zharkov.jpg",
+  "contact": ""
+},
+"valkov": {
+  "id": "valkov",
+  "name": {
+    "ua": "Михайло Валков",
+    "ru": "Михаил Валков",
+    "en": "Mikhail Valkov"
   },
-  "valkov": {
-    "id": "valkov",
-    "name": {
-      "ru": "Михаил Валков",
-      "en": "Mikhail Valkov"
-    },
-    "homepage": "",
-    "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
-    "contact": ""
+  "homepage": "",
+  "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+  "contact": ""
+},
+"silvestrov": {
+  "id": "silvestrov",
+  "name": {
+    "ua": "Юрій Сільвестров",
+    "ru": "Юрий Сильвестров",
+    "en": "Silvestrov Yuriy"
   },
-  "silvestrov": {
-    "id": "silvestrov",
-    "name": {
-      "ru": "Юрий Сильвестров",
-      "en": "Silvestrov Yuriy"
-    },
-    "homepage": "https://ua.linkedin.com/in/ysilvestrov",
-    "avatar": "/static/speakers/silvestrov-yuriy.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/ysilvestrov",
+  "avatar": "/static/speakers/silvestrov-yuriy.jpg",
+  "contact": ""
+},
+"puchnina": {
+  "id": "puchnina",
+  "name": {
+    "ua": "Юлія Пучніна",
+    "ru": "Юлия Пучнина",
+    "en": "Yulia Puchnina"
   },
-  "puchnina": {
-    "id": "puchnina",
-    "name": {
-      "ru": "Юлия Пучнина",
-      "en": "Yulia Puchnina"
-    },
-    "homepage": "https://ua.linkedin.com/in/yulia-puchnina-17473a36/en",
-    "avatar": "/static/speakers/yulia-puchnina.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/yulia-puchnina-17473a36/en",
+  "avatar": "/static/speakers/yulia-puchnina.jpg",
+  "contact": ""
+},
+"druchenko": {
+  "id": "druchenko",
+  "name": {
+    "ua": "Андрій Друченко",
+    "ru": "Андрей Друченко",
+    "en": "Andrew Druchenko"
   },
-  "druchenko": {
-    "id": "druchenko",
-    "name": {
-      "ru": "Андрей Друченко",
-      "en": "Andrew Druchenko"
-    },
-    "homepage": "https://ua.linkedin.com/in/bananos",
-    "avatar": "/static/speakers/andrew-druchenko.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/bananos",
+  "avatar": "/static/speakers/andrew-druchenko.jpg",
+  "contact": ""
+},
+"pytel": {
+  "id": "pytel",
+  "name": {
+    "ua": "Вʼячеслав Пітел",
+    "ru": "Вячеслав Пител",
+    "en": "Vyacheslav Pytel"
   },
-  "pytel": {
-    "id": "pytel",
-    "name": {
-      "ru": "Вячеслав Пител",
-      "en": "Vyacheslav Pytel"
-    },
-    "homepage": "https://ua.linkedin.com/in/vpytel",
-    "avatar": "/static/speakers/vyacheslav-pytel.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/vpytel",
+  "avatar": "/static/speakers/vyacheslav-pytel.jpg",
+  "contact": ""
+},
+"bey": {
+  "id": "bey",
+  "name": {
+    "ua": "Артем Бей",
+    "ru": "Артем Бей",
+    "en": "Artem Bey"
   },
-  "bey": {
-    "id": "bey",
-    "name": {
-      "ru": "Артем Бей",
-      "en": "Artem Bey"
-    },
-    "homepage": "https://ua.linkedin.com/in/artembey",
-    "avatar": "/static/speakers/artem-bey.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/artembey",
+  "avatar": "/static/speakers/artem-bey.jpg",
+  "contact": ""
+},
+"solovyov": {
+  "id": "solovyov",
+  "name": {
+    "ua": "Олександр Соловйов",
+    "ru": "Александр Соловьев",
+    "en": "Alexander Solovyov"
   },
-  "solovyov": {
-    "id": "solovyov",
-    "name": {
-      "ru": "Александр Соловьев",
-      "en": "Alexander Solovyov"
-    },
-    "homepage": "https://ua.linkedin.com/in/asolovyov",
-    "avatar": "/static/speakers/alexander-solovyov.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/asolovyov",
+  "avatar": "/static/speakers/alexander-solovyov.jpg",
+  "contact": ""
+},
+"zakharchenko": {
+  "id": "zakharchenko",
+  "name": {
+    "ua": "Артем Захарченко",
+    "ru": "Артем Захарченко",
+    "en": "Artem Zakharchenko"
   },
-  "zakharchenko": {
-    "id": "zakharchenko",
-    "name": {
-      "ru": "Артем Захарченко",
-      "en": "Artem Zakharchenko"
-    },
-    "homepage": "https://ua.linkedin.com/in/artem-zakharchenko-baa1453b",
-    "avatar": "/static/speakers/artem-zakharchenko.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/artem-zakharchenko-baa1453b",
+  "avatar": "/static/speakers/artem-zakharchenko.jpg",
+  "contact": ""
+},
+"nazarkin": {
+  "id": "nazarkin",
+  "name": {
+    "ua": "Єгор Назаркін",
+    "ru": "Егор Назаркин",
+    "en": "Yehor Nazarkin"
   },
-  "nazarkin": {
-    "id": "nazarkin",
-    "name": {
-      "ru": "Егор Назаркин",
-      "en": "Yehor Nazarkin"
-    },
-    "homepage": "https://ua.linkedin.com/in/yehor-nazarkin-50553129",
-    "avatar": "/static/speakers/yehor-nazarkin.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/yehor-nazarkin-50553129",
+  "avatar": "/static/speakers/yehor-nazarkin.jpg",
+  "contact": ""
+},
+"agafonkin": {
+  "id": "agafonkin",
+  "name": {
+    "ua": "Володимир Агафонкін",
+    "ru": "Владимир Агафонкин",
+    "en": "Vladimir Agafonkin"
   },
-  "agafonkin": {
-    "id": "agafonkin",
-    "name": {
-      "ru": "Владимир Агафонкин",
-      "en": "Vladimir Agafonkin"
-    },
-    "homepage": "https://www.linkedin.com/in/agafonkin",
-    "avatar": "/static/speakers/vladimir-agafonkin.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/agafonkin",
+  "avatar": "/static/speakers/vladimir-agafonkin.jpg",
+  "contact": ""
+},
+"miller": {
+  "id": "miller",
+  "name": {
+    "ua": "Пол Міллер",
+    "ru": "Пол Миллер",
+    "en": "Paul Miller"
   },
-  "miller": {
-    "id": "miller",
-    "name": {
-      "ru": "Пол Миллер",
-      "en": "Paul Miller"
-    },
-    "homepage": "https://sg.linkedin.com/in/paulmillr",
-    "avatar": "/static/speakers/paul-miller.jpg",
-    "contact": ""
+  "homepage": "https://sg.linkedin.com/in/paulmillr",
+  "avatar": "/static/speakers/paul-miller.jpg",
+  "contact": ""
+},
+"turskyi": {
+  "id": "turskyi",
+  "name": {
+    "ua": "Віктор Турський",
+    "ru": "Виктор Турский",
+    "en": "Victor Turskyi"
   },
-  "turskyi": {
-    "id": "turskyi",
-    "name": {
-      "ru": "Виктор Турский",
-      "en": "Victor Turskyi"
-    },
-    "homepage": "https://www.linkedin.com/in/turskyi",
-    "avatar": "/static/speakers/viktor-turskyi.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/turskyi",
+  "avatar": "/static/speakers/viktor-turskyi.jpg",
+  "contact": ""
+},
+"chaplinsky": {
+  "id": "chaplinsky",
+  "name": {
+    "ua": "Дмитро Чаплинський",
+    "ru": "Дмитрий Чаплинский",
+    "en": "Dmitry Chaplinsky"
   },
-  "chaplinsky": {
-    "id": "chaplinsky",
-    "name": {
-      "ru": "Дмитрий Чаплинский",
-      "en": "Dmitry Chaplinsky"
-    },
-    "homepage": "http://ua.linkedin.com/pub/dmitry-chaplinsky/24/784/760",
-    "avatar": "/static/speakers/dmitry-chaplinsky.jpg",
-    "contact": ""
+  "homepage": "http://ua.linkedin.com/pub/dmitry-chaplinsky/24/784/760",
+  "avatar": "/static/speakers/dmitry-chaplinsky.jpg",
+  "contact": ""
+},
+"voronianski": {
+  "id": "voronianski",
+  "name": {
+    "ua": "Дмитро Воронянський",
+    "ru": "Дмитрий Воронянский",
+    "en": "Dmitry Voronianski"
   },
-  "voronianski": {
-    "id": "voronianski",
-    "name": {
-      "ru": "Дмитрий Воронянский",
-      "en": "Dmitry Voronianski"
-    },
-    "homepage": "http://ua.linkedin.com/in/voronianski/",
-    "avatar": "/static/speakers/dmitri-voronianski.jpg",
-    "contact": ""
+  "homepage": "http://ua.linkedin.com/in/voronianski/",
+  "avatar": "/static/speakers/dmitri-voronianski.jpg",
+  "contact": ""
+},
+"potravnyy": {
+  "id": "potravnyy",
+  "name": {
+    "ua": "Вʼячеслав Потравний",
+    "ru": "Вячеслав Потравный",
+    "en": "Vyatcheslav Potravnyy"
   },
-  "potravnyy": {
-    "id": "potravnyy",
-    "name": {
-      "ru": "Вячеслав Потравный",
-      "en": "Vyatcheslav Potravnyy"
-    },
-    "homepage": "http://ua.linkedin.com/pub/vyatcheslav-potravnyy/4a/414/50b/",
-    "avatar": "/static/speakers/vyatcheslav-potravnyy.jpg",
-    "contact": ""
+  "homepage": "http://ua.linkedin.com/pub/vyatcheslav-potravnyy/4a/414/50b/",
+  "avatar": "/static/speakers/vyatcheslav-potravnyy.jpg",
+  "contact": ""
+},
+"raspopov": {
+  "id": "raspopov",
+  "name": {
+    "ua": "Олексій Распопов",
+    "ru": "Алексей Распопов",
+    "en": "Alexey Raspopov"
   },
-  "raspopov": {
-    "id": "raspopov",
-    "name": {
-      "ru": "Алексей Распопов",
-      "en": "Alexey Raspopov"
-    },
-    "homepage": "https://linkedin.com/in/alexey-raspopov-3632a336",
-    "avatar": "/static/speakers/alexey-raspopov.jpg",
-    "contact": ""
+  "homepage": "https://linkedin.com/in/alexey-raspopov-3632a336",
+  "avatar": "/static/speakers/alexey-raspopov.jpg",
+  "contact": ""
+},
+"kazka": {
+  "id": "kazka",
+  "name": {
+    "ua": "Антон Казка",
+    "ru": "Антон Казка",
+    "en": "Anton Kazka"
   },
-  "kazka": {
-    "id": "kazka",
-    "name": {
-      "ru": "Антон Казка",
-      "en": "Anton Kazka"
-    },
-    "homepage": "http://ua.linkedin.com/pub/anton-kazka/74/aa5/9b5",
-    "avatar": "/static/speakers/anton-kazka.jpg",
-    "contact": ""
+  "homepage": "http://ua.linkedin.com/pub/anton-kazka/74/aa5/9b5",
+  "avatar": "/static/speakers/anton-kazka.jpg",
+  "contact": ""
+},
+"safronovy": {
+  "id": "safronovy",
+  "name": {
+    "ua": "Євген Сафронов",
+    "ru": "Евгений Сафронов",
+    "en": "Eugene Safronov"
   },
-  "safronovy": {
-    "id": "safronovy",
-    "name": {
-      "ru": "Евгений Сафронов",
-      "en": "Eugene Safronov"
-    },
-    "homepage": "https://linkedin.com/in/yevgen-safronov-39203a15/",
-    "avatar": "/static/speakers/yevgen-safronov.jpg",
-    "contact": ""
+  "homepage": "https://linkedin.com/in/yevgen-safronov-39203a15/",
+  "avatar": "/static/speakers/yevgen-safronov.jpg",
+  "contact": ""
+},
+"safronove": {
+  "id": "safronove",
+  "name": {
+    "ua": "Євген Сафронов",
+    "ru": "Евгений Сафронов",
+    "en": "Eugene Safronov"
   },
-  "safronove": {
-    "id": "safronove",
-    "name": {
-      "ru": "Евгений Сафронов",
-      "en": "Eugene Safronov"
-    },
-    "homepage": "https://linkedin.com/in/eugene-safronov-b7b257b0",
-    "avatar": "/static/speakers/evgeniy-safronov.jpg",
-    "contact": ""
+  "homepage": "https://linkedin.com/in/eugene-safronov-b7b257b0",
+  "avatar": "/static/speakers/evgeniy-safronov.jpg",
+  "contact": ""
+},
+"filatov": {
+  "id": "filatov",
+  "name": {
+    "ua": "Євген Філатов",
+    "ru": "Евгений Филатов",
+    "en": "Evgen Filatov"
   },
-  "filatov": {
-    "id": "filatov",
-    "name": {
-      "ru": "Евгений Филатов",
-      "en": "Evgen Filatov"
-    },
-    "homepage": "https://www.linkedin.com/pub/evgen-filatov/16/a17/8b7",
-    "avatar": "/static/speakers/evgen-filatov.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/pub/evgen-filatov/16/a17/8b7",
+  "avatar": "/static/speakers/evgen-filatov.jpg",
+  "contact": ""
+},
+"mostovenko": {
+  "id": "mostovenko",
+  "name": {
+    "ua": "Олександр Мостовенко",
+    "ru": "Александр Мостовенко",
+    "en": "Alexander Mostovenko"
   },
-  "mostovenko": {
-    "id": "mostovenko",
-    "name": {
-      "ru": "Александр Мостовенко",
-      "en": "Alexander Mostovenko"
-    },
-    "homepage": "https://www.linkedin.com/in/mostovenko",
-    "avatar": "/static/speakers/alexander-mostovenko.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/mostovenko",
+  "avatar": "/static/speakers/alexander-mostovenko.jpg",
+  "contact": ""
+},
+"ingvar": {
+  "id": "ingvar",
+  "name": {
+    "ua": "Інгвар Степанян",
+    "ru": "Ингвар Степанян",
+    "en": "Ingvar Stepanyan"
   },
-  "ingvar": {
-    "id": "ingvar",
-    "name": {
-      "ru": "Ингвар Степанян",
-      "en": "Ingvar Stepanyan"
-    },
-    "homepage": "https://ua.linkedin.com/in/rreverser",
-    "avatar": "/static/speakers/ingvar-stepanyan.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/rreverser",
+  "avatar": "/static/speakers/ingvar-stepanyan.jpg",
+  "contact": ""
+},
+"kozak": {
+  "id": "kozak",
+  "name": {
+    "ua": "Любомир Козак",
+    "ru": "Любомир Козак",
+    "en": "Liubomyr Kozak"
   },
-  "kozak": {
-    "id": "kozak",
-    "name": {
-      "ru": "Любомир Козак",
-      "en": "Liubomyr Kozak"
-    },
-    "homepage": "https://www.linkedin.com/in/luibomyr",
-    "avatar": "/static/speakers/liubomyr-kozak.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/luibomyr",
+  "avatar": "/static/speakers/liubomyr-kozak.jpg",
+  "contact": ""
+},
+"shvayka": {
+  "id": "shvayka",
+  "name": {
+    "ua": "Олексій Швайка",
+    "ru": "Алексей Швайка",
+    "en": "Aleksey Shvayka"
   },
-  "shvayka": {
-    "id": "shvayka",
-    "name": {
-      "ru": "Алексей Швайка",
-      "en": "Aleksey Shvayka"
-    },
-    "homepage": "https://www.linkedin.com/in/ashvayka",
-    "avatar": "/static/speakers/aleksey-shvayka.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/shvaikalesh",
+  "avatar": "/static/speakers/aleksey-shvayka.jpg",
+  "contact": ""
+},
+"tkachenko": {
+  "id": "tkachenko",
+  "name": {
+    "ua": "Юрій Ткаченко",
+    "ru": "Юра Ткаченко",
+    "en": "Yuri Tkachenko"
   },
-  "tkachenko": {
-    "id": "tkachenko",
-    "name": {
-      "ru": "Юра Ткаченко",
-      "en": "Yuri Tkachenko"
-    },
-    "homepage": "https://www.linkedin.com/in/tkachenkoyuri",
-    "avatar": "/static/speakers/yuri-tkachenko.jpg",
-    "contact": "https://gitter.im/tyv"
+  "homepage": "https://www.linkedin.com/in/tkachenkoyuri",
+  "avatar": "/static/speakers/yuri-tkachenko.jpg",
+  "contact": "https://gitter.im/tyv"
+},
+"frolov": {
+  "id": "frolov",
+  "name": {
+    "ua": "Сергій Фролов",
+    "ru": "Сергей Фролов",
+    "en": "Sergey Frolov"
   },
-  "frolov": {
-    "id": "frolov",
-    "name": {
-      "ru": "Сергей Фролов",
-      "en": "Sergey Frolov"
-    },
-    "homepage": "https://linkedin.com/in/sergiifrolov/",
-    "avatar": "/static/speakers/sergey-frolov.jpg",
-    "contact": "https://gitter.im/allfayn"
+  "homepage": "https://linkedin.com/in/sergiifrolov/",
+  "avatar": "/static/speakers/sergey-frolov.jpg",
+  "contact": "https://gitter.im/allfayn"
+},
+"sychov": {
+  "id": "sychov",
+  "name": {
+    "ua": "Артем Сичов",
+    "ru": "Артем Сычев",
+    "en": "Artem Sychov"
   },
-  "sychov": {
-    "id": "sychov",
-    "name": {
-      "ru": "Артем Сычев",
-      "en": "Artem Sychov"
-    },
-    "homepage": "https://www.linkedin.com/in/suchov/en",
-    "avatar": "/static/speakers/artem-sychov.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/suchov/en",
+  "avatar": "/static/speakers/artem-sychov.jpg",
+  "contact": ""
+},
+"muzalevskyi": {
+  "id": "muzalevskyi",
+  "name": {
+    "ua": "Андрій Музалевський",
+    "ru": "Андрей Музалевский",
+    "en": "Andrii Muzalevskyi"
   },
-  "muzalevskyi": {
-    "id": "muzalevskyi",
-    "name": {
-      "ru": "Андрей Музалевский",
-      "en": "Andrii Muzalevskyi"
-    },
-    "homepage": "https://ua.linkedin.com/in/andreymuzalevskiy/en",
-    "avatar": "/static/speakers/andrii-muzalevskyi.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/andreymuzalevskiy/en",
+  "avatar": "/static/speakers/andrii-muzalevskyi.jpg",
+  "contact": ""
+},
+"lavriv": {
+  "id": "lavriv",
+  "name": {
+    "ua": "Іван Лаврів",
+    "ru": "Іван Лаврів",
+    "en": "Ivan Lavriv"
   },
-  "lavriv": {
-    "id": "lavriv",
-    "name": {
-      "ru": "Іван Лаврів",
-      "en": "Ivan Lavriv"
-    },
-    "homepage": "https://ua.linkedin.com/in/ivan-lavriv-16b23878/en",
-    "avatar": "/static/speakers/ivan-lavriv.jpg",
-    "contact": ""
+  "homepage": "https://ua.linkedin.com/in/ivan-lavriv-16b23878/en",
+  "avatar": "/static/speakers/ivan-lavriv.jpg",
+  "contact": ""
+},
+"pponomarenko": {
+  "id": "pponomarenko",
+  "name": {
+    "ua": "Павло Пономаренко",
+    "ru": "Павло Пономаренко",
+    "en": "Pavlo Ponomarenko"
   },
-  "pponomarenko": {
-    "id": "pponomarenko",
-    "name": {
-      "ru": "Павло Пономаренко",
-      "en": "Pavlo Ponomarenko"
-    },
-    "homepage": "https://github.com/theshock",
-    "avatar": "/static/speakers/pavlo-ponomarenko.jpg",
-    "contact": ""
+  "homepage": "https://github.com/theshock",
+  "avatar": "/static/speakers/pavlo-ponomarenko.jpg",
+  "contact": ""
+},
+"zaichenko": {
+  "id": "zaichenko",
+  "name": {
+    "ua": "Денис Зайченко",
+    "ru": "Денис Зайченко",
+    "en": "Denis Zaichenko"
   },
-  "zaichenko": {
-    "id": "zaichenko",
-    "name": {
-      "ru": "Денис Зайченко",
-      "en": "Denis Zaichenko"
-    },
-    "homepage": "https://www.linkedin.com/in/dzaichenko",
-    "avatar": "/static/speakers/denis-zaichenko.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/dzaichenko",
+  "avatar": "/static/speakers/denis-zaichenko.jpg",
+  "contact": ""
+},
+"shpak": {
+  "id": "shpak",
+  "name": {
+    "ua": "Олександр Шпак",
+    "ru": "Александр Шпак",
+    "en": "Oleksandr Shpak"
   },
-  "shpak": {
-    "id": "shpak",
-    "name": {
-      "ru": "Александр Шпак",
-      "en": "Oleksandr Shpak"
-    },
-    "homepage": "https://www.linkedin.com/in/oleksandr-shpak-8915376",
-    "avatar": "/static/speakers/oleksandr-shpak.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/oleksandr-shpak-8915376",
+  "avatar": "/static/speakers/oleksandr-shpak.jpg",
+  "contact": ""
+},
+"orlenko": {
+  "id": "orlenko",
+  "name": {
+    "ua": "Олексій Орленко",
+    "ru": "Алексей Орленко",
+    "en": "Alexey Orlenko"
   },
-  "orlenko": {
-    "id": "orlenko",
-    "name": {
-      "ru": "Алексей Орленко",
-      "en": "Alexey Orlenko"
-    },
-    "homepage": "https://www.linkedin.com/in/alexeyorlenko",
-    "avatar": "/static/speakers/alexey-orlenko.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/alexeyorlenko",
+  "avatar": "/static/speakers/alexey-orlenko.jpg",
+  "contact": ""
+},
+"galkin": {
+  "id": "galkin",
+  "name": {
+    "ua": "Микита Галкін",
+    "ru": "Никита Галкин",
+    "en": "Nikita Galkin"
   },
-  "galkin": {
-    "id": "galkin",
-    "name": {
-      "ru": "Никита Галкин",
-      "en": "Nikita Galkin"
-    },
-    "homepage": "https://twitter.com/galk_in",
-    "avatar": "/static/speakers/nikita-galkin.jpg",
-    "contact": ""
+  "homepage": "https://twitter.com/galk_in",
+  "avatar": "/static/speakers/nikita-galkin.jpg",
+  "contact": ""
+},
+"sorokobatko": {
+  "id": "sorokobatko",
+  "name": {
+    "ua": "Валерій Сорокобатько",
+    "ru": "Валерий Сорокобатько",
+    "en": "Valeriy Sorokobatko"
   },
-  "sorokobatko": {
-    "id": "sorokobatko",
-    "name": {
-      "ru": "Валерий Сорокобатько",
-      "en": "Valeriy Sorokobatko"
-    },
-    "homepage": "https://twitter.com/tuchk4",
-    "avatar": "/static/speakers/valeriy-sorokobatko.jpg",
-    "contact": ""
+  "homepage": "https://twitter.com/tuchk4",
+  "avatar": "/static/speakers/valeriy-sorokobatko.jpg",
+  "contact": ""
+},
+"klymov": {
+  "id": "klymov",
+  "name": {
+    "ua": "Ілля Климов",
+    "ru": "Илья Климов",
+    "en": "Illya Klymov"
   },
-  "klymov": {
-    "id": "klymov",
-    "name": {
-      "ru": "Илья Климов",
-      "en": "Illya Klymov"
-    },
-    "homepage": "https://www.linkedin.com/in/illyaklymov",
-    "avatar": "/static/speakers/illya-klymov.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/illyaklymov",
+  "avatar": "/static/speakers/illya-klymov.jpg",
+  "contact": ""
+},
+"shumada": {
+  "id": "shumada",
+  "name": {
+    "ua": "Андрій Шумада",
+    "ru": "Андрей Шумада",
+    "en": "Andrii Shumada"
   },
-  "shumada": {
-    "id": "shumada",
-    "name": {
-      "ru": "Андрей Шумада",
-      "en": "Andrii Shumada"
-    },
-    "homepage": "https://www.linkedin.com/in/andriishumada",
-    "avatar": "/static/speakers/andrii-shumada.jpg",
-    "contact": ""
+  "homepage": "https://www.linkedin.com/in/andriishumada",
+  "avatar": "/static/speakers/andrii-shumada.jpg",
+  "contact": ""
+},
+"shehet": {
+  "id": "shehet",
+  "name": {
+    "ua": "Гриша Шехет",
+    "ru": "Гриша Шехет",
+    "en": "Gregory Shehet"
   },
-  "shehet": {
-    "id": "shehet",
-    "name": {
-      "ru": "Гриша Шехет",
-      "en": "Gregory Shehet"
-    },
-    "homepage": "https://www.linkedin.com/in/gregory-shehet-9a6a8983",
-    "avatar": "/static/speakers/gregory-shehet.jpg",
-    "contact": ""
-  }
+  "homepage": "https://www.linkedin.com/in/gregory-shehet-9a6a8983",
+  "avatar": "/static/speakers/gregory-shehet.jpg",
+  "contact": ""
+}
 }
