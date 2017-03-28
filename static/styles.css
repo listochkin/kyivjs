@@ -152,19 +152,10 @@ body {
 }
 
 .header-links__link {
-  display: inline-block;
-  padding: .3rem 1rem;
   font-size: 1.6em;
   line-height: 1.5;
-  border-radius: .2rem;
-  border: solid .1rem rgba(255, 255, 255, .5);
-  text-decoration: none;
-  color: #fff;
-  cursor: pointer;
-  transition: background-color .15s;
 }
 
-.header-links__link:hover,
 .header-links__link--active {
   background-color: rgba(112, 183, 253, 0.5);
 }
@@ -172,6 +163,32 @@ body {
 .main {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.link {
+  display: inline-block;
+  border: solid .1rem;
+  border-radius: .2rem;
+  text-decoration: none;
+  padding: .3rem 1rem;
+  z-index: 1;
+  transition: background-color .15s, color .15s;
+  cursor: pointer;
+}
+.link--bright {
+  color: #fff;
+  border-color: rgba(255, 255, 255, 0.5);
+}
+.link--bright:hover {
+  background-color: rgba(112, 183, 253, 0.5);
+}
+.link--dark {
+  border-color: rgba(112, 183, 253, 1);
+  color: rgba(112, 183, 253, 1);
+}
+.link--dark:hover {
+  background-color: rgba(112, 183, 253, 1);
+  color: #fff;
 }
 
 .default-text > h1 {
@@ -232,18 +249,25 @@ body {
   padding-bottom: 3rem;
 }
 
+.human-container {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
 .human {
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
-  padding-top: 2rem;
-  padding-bottom: 2rem;
   text-align: center;
+  border: solid .1rem rgba(4, 189, 230, .9);
+  box-shadow: 0 1rem 2rem 0 rgba(4, 189, 230, .24);
+  padding: 2rem;
 }
 
 .human__userpic {
   flex-shrink: 0;
+  margin-bottom: 1.5rem;
 }
 
 .human__name {
@@ -267,9 +291,9 @@ body {
   position: relative;
   width: 15rem;
   height: 15rem;
-  border-radius: 100%;
   overflow: hidden;
-  box-shadow: inset 0 0 .1rem rgba(0, 0, 0, .1);
+  box-shadow: 0 .2rem .4rem 0 rgba(4, 189, 230, .6);
+  border-radius: .4rem;
 }
 
 .userpic__image {
@@ -363,6 +387,7 @@ body {
 
   .human__userpic {
     margin-right: 4rem;
+    margin-bottom: 0;
   }
 }
 
@@ -373,7 +398,6 @@ body {
 }
 
 @media (min-width: 48em)/*768px*/ {
-
   .header__layout {
     flex-direction: row;
     padding-left: 4rem;
