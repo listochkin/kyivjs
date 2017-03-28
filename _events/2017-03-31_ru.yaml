@@ -5,14 +5,14 @@ lang: ru
 time: в 19:00
 upcoming: true
 location: wix
-# regLink: 'http://'
+regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSejyyagQVQY1VWUfjJ2ZAHEuWSrmOcvhZKKW0yaNf6v4le0Lg/viewform'
 regAnnounce: 'Регистрация откроется во вторник, 28 марта в 14:00.'
 speakers:
   - shvayka
   - mostovenko
 topics:
   shvayka:
-    name: A word on regular expressions
+    name: A Word on Regular Expressions
   mostovenko:
     name: Локализация в ES6 с помощью c-3po
 ---

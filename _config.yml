@@ -1,9 +1,9 @@
 markdown: kramdown
 kramdown:
    input: GFM
-description: Site for KyivJS – CityJS javascript meetup taking place in Kyiv
+description: Site for KyivJS – CityJS JavaScript meetup taking place in Kyiv
 index:
-  ru:
+  ua:
   en: en
 collections:
 - events

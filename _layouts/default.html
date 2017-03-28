@@ -13,13 +13,14 @@
   </head>
 
   <body>
+    {% assign events = (site.events | sort: 'sortDate' | where:'lang', page.lang) | reverse %}
     {% assign commonStrings = site.data.common[page.lang] %}
-    {% include header.html %}
+    {% assign lastComing = events | where:'upcoming', true  %}
+    {% include header.html commonStrings=commonStrings lastComing=lastComing.first %}
     <main class="main">
+
       <section class="next default-text">
         <h1>{{page.nextTitle}}</h1>
-
-        {% assign events = (site.events | sort: 'sortDate' | where:'lang', page.lang) | reverse %}
         {% for event in events %}
           {% if event.upcoming == true %}
             {% include event.html event=event %}

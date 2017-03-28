@@ -1,10 +1,10 @@
 ---
 layout: default
 ref: index
-lang: ru
-prevTitle: Предыдущие встречи
-nextTitle: Следующие встречи
-callForSpeakers: Если вы хотите чем-нибудь поделиться с комьюнити, <a href="#write-anchor">предложите доклад</a>.
+lang: ua
+prevTitle: Минулі зустрічі
+nextTitle: Майбутні зустрічі
+callForSpeakers: Маєте чим поділитися зі спільнотою? <a href="#write-anchor">Запропонуйте доповідь</a>
 
 founders:
  - klymyshyn
