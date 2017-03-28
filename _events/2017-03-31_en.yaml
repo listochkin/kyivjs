@@ -5,8 +5,8 @@ lang: en
 time: 7 p.m
 upcoming: true
 location: wix
-# regLink: 'http://'
-regAnnounce: 'Registration will open on Tuesday, 28th of March @ 14am.'
+regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSejyyagQVQY1VWUfjJ2ZAHEuWSrmOcvhZKKW0yaNf6v4le0Lg/viewform'
+regAnnounce: 'First registration on Tuesday, 28 of March @ 2 p.m. Next will be Thursday, 30th of March @ 2 p.m'
 speakers:
   - shvayka
   - mostovenko

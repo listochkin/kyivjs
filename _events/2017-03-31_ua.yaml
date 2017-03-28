@@ -5,8 +5,8 @@ lang: ua
 time: '19:00'
 upcoming: true
 location: wix
-# regLink: 'http://'
-regAnnounce: 'Реєстрацію буде відкрито у вівторок, 28 березня, о 14:00.'
+regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSejyyagQVQY1VWUfjJ2ZAHEuWSrmOcvhZKKW0yaNf6v4le0Lg/viewform'
+regAnnounce: 'Перша хвиля реєстрацій — вівторок, 28 березня о 14:00. Друга у четвер, 30 березня о 14:00.'
 speakers:
   - shvayka
   - mostovenko
