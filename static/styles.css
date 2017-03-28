@@ -131,7 +131,9 @@ body {
 }
 
 .main {
-  padding: 0 100px 0 250px;
+  padding: 0 20px;
+  margin: 0 auto;
+  max-width: 800px;
 }
 
 
