@@ -130,6 +130,10 @@ body {
   background: #fff;
 }
 
+.header-links__link_register {
+  font-size: 21px;
+}
+
 .main {
   padding: 0 100px 0 250px;
 }
