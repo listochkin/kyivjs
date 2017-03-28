@@ -9,13 +9,10 @@
     text-align: left;
   }
 
-  .event {
-    text-align: left;
-  }
-
   .human {
     flex-direction: row;
     min-width: 40rem;
+    text-align: left;
   }
 
   .human__userpic {
@@ -36,26 +33,18 @@
   }
 
   .header__note,
-  .main {
+  .main,
+  .footer {
     padding-left: 10rem;
     padding-right: 10rem;
   }
 }
 
-@media (min-width: 48em)/*768px*/ and (max-width: 61.9375em)/*991px*/ {}
-
 @media (min-width: 62em)/*992px*/ {
   .header__note,
-  .main {
+  .main,
+  .footer {
     padding-left: 25rem;
     padding-right: 10rem;
   }
 }
-
-@media (min-width: 62em)/*992px*/ and (max-width: 74.9375em)/*1199px*/ {}
-
-@media (min-width: 75em)/*1200px*/ {}
-
-@media screen and (max-width: 47.9375em)/*767px*/ {}
-
-@media screen and (max-width: 61.9375em)/*991px*/ {}
