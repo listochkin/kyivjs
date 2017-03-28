@@ -1,3 +1,9 @@
+@media (max-width: 25.6875em)/*411px*/ {
+  html {
+    font-size: 50%;
+  }
+}
+
 @media (min-width: 25.75em)/*412px*/ {
   .logo {
     flex-direction: row;
