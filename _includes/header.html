@@ -10,6 +10,14 @@
 
     <ul class="header-links">
       <li class="header-links__item">
+          <a class="header-links__link header-links__link_register" href="{{lastComing.regLink}}" target="_blank">
+            {{commonStrings.register}}
+          </a>
+      </li>
+    </ul>
+
+    <ul class="header-links">
+      <li class="header-links__item">
         {% if page.lang != 'ua' %}
           <a class="header-links__link" href="/">UA</a>
         {% else %}

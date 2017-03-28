@@ -88,7 +88,10 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
+  padding-top: 2rem;
   padding-bottom: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .header__note {
@@ -97,46 +100,30 @@ body {
   padding-right: 3rem;
   line-height: 1.5;
   color: white;
+  text-align: center;
 }
 
 .header__note a {
   position: relative;
   display: inline-block;
+  border: solid .1rem rgba(255, 255, 255, 0.5);
+  border-radius: .2rem;
   text-decoration: none;
   color: white;
-  padding-left: .5rem;
-  padding-right: .5rem;
+  padding: .3rem 1rem;
   z-index: 1;
-  transition: color .15s;
-}
-
-.header__note a:before {
-  position: absolute;
-  display: block;
-  content: '';
-  height: .2rem;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  background-color: #70b7fd;
-  border-radius: .5rem;
-  z-index: -1;
-  transition: height .15s;
+  transition: background-color .15s;
+  cursor: pointer;
 }
 
 .header__note a:hover {
-  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
-}
-
-.header__note a:hover:before {
-  height: 100%;
+  background-color: rgba(112, 183, 253, 0.5);
 }
 
 .logo {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 2rem 4rem;
 }
 
 .logo__image {
@@ -151,16 +138,17 @@ body {
 .logo__type {
   font-size: 4.5em;
   font-weight: bold;
-  margin-left: 1rem;
+  color: #fff;
 }
 
 .header-links {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
+  text-align: center;
 }
 
 .header-links__item {
   display: inline-block;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
 }
 
 .header-links__link {
@@ -169,28 +157,16 @@ body {
   font-size: 1.6em;
   line-height: 1.5;
   border-radius: .2rem;
-  border: solid .1rem #fff;
+  border: solid .1rem rgba(255, 255, 255, .5);
   text-decoration: none;
   color: #fff;
   cursor: pointer;
   transition: background-color .15s;
 }
 
-.header-links__link:hover {
-  background-color: #70B7FD;
-}
-
-.header-links__link.header-links__link--twitter:hover {
-  background-color: #1DA1F2;
-}
-
-.header-links__link.header-links__link--gitter:hover {
-  background-color: #d1044b;
-}
-
+.header-links__link:hover,
 .header-links__link--active {
-  background-color: #70B7FD;
-  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+  background-color: rgba(112, 183, 253, 0.5);
 }
 
 .main {
