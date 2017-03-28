@@ -40,14 +40,12 @@
 
   .header__layout {
     flex-direction: row;
-    /*padding-bottom: 0;*/
     padding-left: 4rem;
     padding-right: 4rem;
     justify-content: space-between;
   }
 
   .header-links {
-    /*margin-right: 4rem;*/
     padding-top: 0;
     padding-bottom: 0;
     padding-left: 1rem;
