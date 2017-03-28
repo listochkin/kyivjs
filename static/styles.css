@@ -93,8 +93,8 @@ body {
 
 .header__note {
   font-size: 2.4em;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   line-height: 1.5;
   color: white;
 }
@@ -194,8 +194,8 @@ body {
 }
 
 .main {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
 }
 
 .default-text > h1 {
@@ -252,8 +252,8 @@ body {
 }
 
 .humans {
-  padding-top: 2rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
 }
 
 .human {
@@ -347,8 +347,8 @@ body {
 }
 
 .footer {
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 3rem;
+  padding-right: 3rem;
   padding-bottom: 10rem;
   margin-top: 6rem;
 }
