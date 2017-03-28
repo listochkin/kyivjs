@@ -1,0 +1,18 @@
+---
+sortDate: 20170331
+title: 31 березня 2017
+lang: ua
+time: '19:00'
+upcoming: true
+location: wix
+# regLink: 'http://'
+regAnnounce: 'Реєстрацію буде відкрито у вівторок, 28 березня, о 14:00.'
+speakers:
+  - shvayka
+  - mostovenko
+topics:
+  shvayka:
+    name: A Word on Regular Expressions
+  mostovenko:
+    name: Локалізація в ES6 за допомогою c-3po 
+---
