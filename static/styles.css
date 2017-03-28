@@ -67,7 +67,6 @@ body {
   position: relative;
   overflow: hidden;
   padding-bottom: 20px;
-  background: #747D00;
 }
 
 .header__illustration {
@@ -86,13 +85,12 @@ body {
 }
 
 .header__note {
-  color: #fff;
+  color: #000;
   font-size: 24px;
   margin-left: 250px;
 }
 
 .header__note a {
-  color: #fff;
 }
 
 .logo {
@@ -117,7 +115,6 @@ body {
   font-size: 45px;
   font-weight: bold;
   margin-left: 10px;
-  color: #fff;
 }
 
 .header-links {
