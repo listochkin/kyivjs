@@ -172,9 +172,8 @@ body {
   border: solid .1rem #fff;
   text-decoration: none;
   color: #fff;
-  transition: color .3s;
   cursor: pointer;
-  transition: background-color .15s
+  transition: background-color .15s;
 }
 
 .header-links__link:hover {
@@ -183,6 +182,10 @@ body {
 
 .header-links__link.header-links__link--twitter:hover {
   background-color: #1DA1F2;
+}
+
+.header-links__link.header-links__link--gitter:hover {
+  background-color: #d1044b;
 }
 
 .header-links__link--active {
