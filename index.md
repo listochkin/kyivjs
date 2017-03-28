@@ -4,7 +4,7 @@ ref: index
 lang: ua
 prevTitle: Минулі зустрічі
 nextTitle: Майбутні зустрічі
-callForSpeakers: Маєте чим поділитися зі спільнотою? <a href="#write-anchor">Запропонуйте доклад</a>.
+callForSpeakers: Маєте чим поділитися зі спільнотою? <a href="#write-anchor">Запропонуйте доповідь</a>.
 
 founders:
  - klymyshyn
