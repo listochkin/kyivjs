@@ -124,6 +124,10 @@ body {
   transition: height .15s;
 }
 
+.header__note a:hover {
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
+}
+
 .header__note a:hover:before {
   height: 100%;
 }
@@ -170,6 +174,20 @@ body {
   color: #fff;
   transition: color .3s;
   cursor: pointer;
+  transition: background-color .15s
+}
+
+.header-links__link:hover {
+  background-color: #70B7FD;
+}
+
+.header-links__link.header-links__link--twitter:hover {
+  background-color: #1DA1F2;
+}
+
+.header-links__link--active {
+  background-color: #70B7FD;
+  text-shadow: 1px 1px 2px rgba(150, 150, 150, 1);
 }
 
 .main {
