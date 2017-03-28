@@ -74,15 +74,15 @@ body {
   background: linear-gradient(-180deg, rgba(48, 34, 174, 0) 0%, rgb(4, 189, 230) 100%), #fbeb29 url(https://i.ytimg.com/vi/g14rXXDn8kk/maxresdefault.jpg) center center/cover no-repeat;
 }
 
-.header__illustration {
+/*.header__illustration {
   position: absolute;
   left: 50%;
   bottom: -2rem;
   z-index: -1;
   width: 120%;
   transform: translateX(-50%);
-  /*filter: grayscale(.5) saturate(2) blur(.6rem) opacity(.8);*/
-}
+  filter: grayscale(.5) saturate(2) blur(.6rem) opacity(.8);
+}*/
 
 .header__layout {
   display: flex;
