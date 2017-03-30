@@ -28,7 +28,7 @@
               <p class="upcoming-info__note">
                 {{event.regAnnounce}}
                 {% if event.regLink %}
-                  <br><a class="upcoming-info__link" href="{{event.regLink}}">{{commonStrings.register}}</a>
+                  <br><a class="upcoming-info__link link link--dark" href="{{event.regLink}}">{{commonStrings.register}}</a>
                 {% endif %}
               </p>
               {% assign location = site.data.locations[event.location][page.lang] %}

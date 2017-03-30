@@ -51,7 +51,7 @@
     "en": "Eugene Naumenko"
   },
   "homepage": "https://twitter.com/sudodoki",
-  "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+  "avatar": "/static/kyivjs.svg",
   "contact": ""
 },
 "stepanenko": {
@@ -62,7 +62,7 @@
     "en": "Vitaliy Stepanenko"
   },
   "homepage": "",
-  "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+  "avatar": "/static/kyivjs.svg",
   "contact": ""
 },
 "lvivski": {
@@ -106,7 +106,7 @@
     "en": "Mikhail Valkov"
   },
   "homepage": "",
-  "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+  "avatar": "/static/kyivjs.svg",
   "contact": ""
 },
 "silvestrov": {
