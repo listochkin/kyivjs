@@ -260,8 +260,6 @@ body {
   align-items: center;
   box-sizing: border-box;
   text-align: center;
-  border: solid .1rem rgba(4, 189, 230, .9);
-  box-shadow: 0 1rem 2rem 0 rgba(4, 189, 230, .24);
   padding: 2rem;
 }
 
@@ -286,13 +284,16 @@ body {
   margin-top: 1rem;
 }
 
+.human__talk a {
+  color: black;
+}
+
 .userpic {
   display: inline-block;
   position: relative;
   width: 15rem;
   height: 15rem;
   overflow: hidden;
-  box-shadow: 0 .2rem .4rem 0 rgba(4, 189, 230, .6);
   border-radius: .4rem;
 }
 
