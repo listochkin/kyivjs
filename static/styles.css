@@ -287,6 +287,10 @@ body {
   margin-top: 1rem;
 }
 
+.human__talk a {
+  color: black;
+}
+
 .userpic {
   display: inline-block;
   position: relative;
