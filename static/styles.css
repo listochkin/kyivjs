@@ -288,6 +288,30 @@ body {
   color: black;
 }
 
+.lightning__content {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.lightning__title {
+  font-size: 2rem;
+  flex-grow: 1;
+}
+
+.lightnings {
+  padding: 1rem 0;
+}
+
+.lightning-container {
+  padding: .4rem 2rem;
+  font-size: 1.6rem;
+}
+
+.lightning-link {
+  color: black;  
+}
+
 .userpic {
   display: inline-block;
   position: relative;
