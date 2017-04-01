@@ -291,12 +291,19 @@ body {
 .lightning__content {
   display: flex;
   flex-direction: column;
-  padding: 2rem;
+  padding: 2rem 0;
+}
+
+@media (min-width: 32em) {
+  .lightning__content {
+    padding: 2rem;
+  }
 }
 
 .lightning__title {
   font-size: 2rem;
   flex-grow: 1;
+  margin-bottom: 1rem;
 }
 
 .lightnings {
@@ -304,8 +311,12 @@ body {
 }
 
 .lightning-container {
-  padding: .4rem 2rem;
   font-size: 1.6rem;
+  line-height: 1.4;
+}
+
+.lightning-container + .lightning-container {
+  margin-top: 1rem;
 }
 
 .lightning-link {
