@@ -3,7 +3,7 @@ sortDate: 20170331
 title: 31 березня 2017
 lang: ua
 time: '19:00'
-upcoming: true
+upcoming: false
 location: wix
 regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSejyyagQVQY1VWUfjJ2ZAHEuWSrmOcvhZKKW0yaNf6v4le0Lg/viewform'
 regAnnounce: 'Перша хвиля реєстрацій — вівторок, 28 березня о 14:00. Друга у четвер, 30 березня о 14:00.'
@@ -13,6 +13,28 @@ speakers:
 topics:
   shvayka:
     name: A Word on Regular Expressions
+    link: https://goo.gl/MXd52q
   mostovenko:
     name: Локалізація в ES6 за допомогою c-3po
+    link: https://goo.gl/TNrYMw
+lightnings:
+  - speaker: markorel
+    name: Читання для ледарів - Чистий код
+    link: http://slides.com/markorel/deck
+   
+  - speaker: liutikov
+    name: The missing piece of modern front end architecture
+    link: https://goo.gl/9m96pz
+  
+  - speaker: evgenykozhura
+    name: Fun with bitwise noise
+    link: https://goo.gl/sD2wGz
+  
+  - speaker: yavorsky
+    name: Babel 2k17
+    link: https://goo.gl/Ort2kw
+  
+  - speaker: shehet
+    name: CSS in JS
+    link: https://goo.gl/zsLCM6    
 ---
