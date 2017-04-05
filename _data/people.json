@@ -51,7 +51,7 @@
     "en": "Eugene Naumenko"
   },
   "homepage": "https://twitter.com/sudodoki",
-  "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+  "avatar": "/static/kyivjs.svg",
   "contact": ""
 },
 "stepanenko": {
@@ -62,7 +62,7 @@
     "en": "Vitaliy Stepanenko"
   },
   "homepage": "",
-  "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+  "avatar": "/static/kyivjs.svg",
   "contact": ""
 },
 "lvivski": {
@@ -106,7 +106,7 @@
     "en": "Mikhail Valkov"
   },
   "homepage": "",
-  "avatar": "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7",
+  "avatar": "/static/kyivjs.svg",
   "contact": ""
 },
 "silvestrov": {
@@ -515,5 +515,54 @@
   "homepage": "https://www.linkedin.com/in/gregory-shehet-9a6a8983",
   "avatar": "/static/speakers/gregory-shehet.jpg",
   "contact": ""
+},
+"markorel": {
+  "id": "markorel",
+  "type": "lightning",
+  "name": {
+    "ua": "Марк Орел",
+    "ru": "Марк Орел",
+    "en": "Mark Orel"
+  },
+  "homepage": "https://www.linkedin.com/in/mark-orel-4a13b472",
+  "avatar": "/static/speakers/mark-orel.jpg",
+  "contact": ""
+},
+"liutikov": {
+  "id": "liutikov",
+  "type": "lightning",
+  "name": {
+    "ua": "Роман Лютіков",
+    "ru": "Роман Лютиков",
+    "en": "Roman Liutikov"
+  },
+  "homepage": "https://github.com/roman01la",
+  "avatar": "/static/speakers/roman-liutikov.jpg",
+  "contact": ""
+},
+"evgenykozhura": {
+  "id": "evgenykozhura",
+  "type": "lightning",
+  "name": {
+    "ua": "Євгеній Кожура",
+    "ru": "Евгений Кожура",
+    "en": "Evgeny Kozhura"
+  },
+  "homepage": "https://www.linkedin.com/in/evgeny-kozhura/",
+  "avatar": "/static/speakers/evgeny-kozhura.jpg",
+  "contact": ""
+},
+"yavorsky": {
+  "id": "yavorsky",
+  "type": "lightning",
+  "name": {
+    "ua": "Артем Яворський",
+    "ru": "Артем Яворский",
+    "en": "Artem Yavorsky"
+  },
+  "homepage": "https://www.linkedin.com/in/artem-yavorsky-01939869/",
+  "avatar": "/static/speakers/artem-yavorsky.jpg",
+  "contact": ""
 }
+
 }

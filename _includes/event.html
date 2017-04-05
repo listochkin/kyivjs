@@ -5,7 +5,7 @@
       {{ event.title }}{% if event.upcoming and event.time %}, {{event.time}}.{% endif %}
     </h1>
     {% if event.dou != nil %}
-      <h2 class="event__dou"><a href="{{event.dou}}" target="_blank">каледар DOU</a></h2>
+      <h2 class="event__dou"><a class="link link--dark" href="{{event.dou}}" target="_blank">каледар DOU</a></h2>
     {% endif %}
   </header>
   <div class="event__content">
@@ -16,27 +16,53 @@
       {% assign people = site.data.people %}
       {% for id in event.speakers %}
         {% assign human = site.data.people[id] %}
-        <li class="human">
-          <figure class="userpic human__userpic">
-            <img class="userpic__image" src="{{human.avatar}}" alt="">
-          </figure>
-          <div>
-            <h4 class="human__name"><a href="{{human.homepage}}" target="_blank">{{human.name[page.lang]}}</a></h4>
-            {% assign topics = event.topics %}
-            {% if event.topics != nil %}
-              <h5 class="human__talk">
-                {% assign talkLink = topics[human.id].link %}
-                {% assign talkName = topics[human.id].name %}
-                {% if talkLink != nil %}
-                  <a href="{{talkLink}}" target="_blank">{{talkName}}</a>
-                {% else %}
-                  {{talkName}}
-                {% endif %}
-              </h5>
-            {% endif %}
+        <li class="human-container">
+          <div class="human">
+            <figure class="userpic human__userpic">
+              <img class="userpic__image" src="{{human.avatar}}" alt="">
+            </figure>
+            <div>
+              <h4 class="human__name"><a class="link link--dark" href="{{human.homepage}}" target="_blank">{{human.name[page.lang]}}</a></h4>
+              {% assign topics = event.topics %}
+              {% if event.topics != nil %}
+                <h5 class="human__talk">
+                  {% assign talkLink = topics[human.id].link %}
+                  {% assign talkName = topics[human.id].name %}
+                  {% if talkLink != nil %}
+                    <a href="{{talkLink}}" target="_blank">{{talkName}}</a>
+                  {% else %}
+                    {{talkName}}
+                  {% endif %}
+                </h5>
+              {% endif %}
+            </div>
           </div>
         </li>
       {% endfor %}
     </ul>
+    {% if event.lightnings != nil %}
+    <div class="lightning__content">
+      <h1 class="lightning__title">
+          {{commonStrings.lightnings}}
+      </h1>
+      <ul class="lightnings">
+      {% for lightning in event.lightnings %}
+        {% assign human = site.data.people[lightning.speaker] %}
+        <li class="lightning-container">
+              {% if human != nil %}
+                <a class="link link--dark" href="{{human.homepage}}" target="_blank">{{human.name[page.lang]}}</a> /
+              {% endif %}
+              {% if lightning.link != nil %}
+                <a class="lightning-link" href="{{lightning.link}}" target="_blank">{{lightning.name}}</a>
+              {% else %}
+                {{lightning.name}}
+              {% endif %}
+
+        </li>
+      {% endfor %}
+    </ul>
   </div>
+  {% endif %}
+  </div>
+  
 </article>
