@@ -1,0 +1,17 @@
+---
+sortDate: 20170427
+title: April 27, 2017
+lang: en
+# time: '19:00'
+upcoming: true
+location: wix
+# regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSejyyagQVQY1VWUfjJ2ZAHEuWSrmOcvhZKKW0yaNf6v4le0Lg/viewform'
+# regAnnounce: 'First registration on Tuesday, 28 of March @ 2 p.m. Next will be Thursday, 30th of March @ 2 p.m'
+speakers:
+  - filatov
+  - tba
+topics:
+  filatov:
+    name: "Topic name to be announced, theme is 'Offline first'"
+    # link:
+---

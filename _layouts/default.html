@@ -27,13 +27,13 @@
               <p class="upcoming-info__note">
                 {{event.regAnnounce}}
                 {% if event.regLink %}
-                  <br><a class="upcoming-info__link link link--dark" href="{{event.regLink}}">{{commonStrings.register}}</a>
+                  <br><a class="upcoming-info__link" href="{{event.regLink}}">{{commonStrings.register}}</a>
                 {% endif %}
               </p>
               {% assign location = site.data.locations[event.location][page.lang] %}
               <address class="upcoming-info__location">
                 <label class="upcoming-info__show-map" for="{{event.sortDate}}map" title="{{commonStrings.showMap}}">
-                  {{location.name}}, {{location.address}}, {{event.time}}
+                  {{location.name}}, {{location.address}}{% if event.time %}, {{event.time}}{% endif %}
                 </label>
               </address>
               <input class="upcoming-info__map-toggler" type="checkbox" id="{{event.sortDate}}map">

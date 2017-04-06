@@ -10,34 +10,36 @@
       <span class="logo__type">KyivJS</span>
     </h1>
 
-    <ul class="header-links">
-      <li class="header-links__item">
-          <a class="header-links__link header-links__link_register link link--bright" href="{{lastComing.regLink}}" target="_blank">
-            {{commonStrings.register}}
-          </a>
-      </li>
-    </ul>
+    {% if lastComing.regLink %}
+      <ul class="header-links">
+        <li class="header-links__item">
+            <a class="header-links__link header-links__link_register" href="{{lastComing.regLink}}" target="_blank">
+              {{commonStrings.register}}
+            </a>
+        </li>
+      </ul>
+    {% endif %}
 
     <ul class="header-links">
       <li class="header-links__item">
         {% if page.lang != 'ua' %}
-          <a class="header-links__link link link--bright" href="/">UA</a>
+          <a class="header-links__link" href="/">UA</a>
         {% else %}
-          <span class="header-links__link header-links__link--active link link--bright">UA</span>
+          <span class="header-links__link header-links__link_active">UA</span>
         {% endif %}
       </li>
       <li class="header-links__item">
         {% if page.lang != 'en' %}
-          <a class="header-links__link link link--bright" href="/en">EN</a>
+          <a class="header-links__link" href="/en">EN</a>
         {% else %}
-          <span class="header-links__link header-links__link--active link link--bright">EN</span>
+          <span class="header-links__link header-links__link_active">EN</span>
         {% endif %}
       </li>
     </ul>
 
     <ul class="header-links">
-      <li class="header-links__item"><a class="header-links__link link link--bright" href="https://twitter.com/kyivjs">Twitter</a></li>
-      <li class="header-links__item"><a class="header-links__link link link--bright" href="https://gitter.im/dev-ua/frontend-ua/kyivjs">Gitter</a></li>
+      <li class="header-links__item"><a class="header-links__link" href="https://twitter.com/kyivjs">Twitter</a></li>
+      <li class="header-links__item"><a class="header-links__link" href="https://gitter.im/dev-ua/frontend-ua/kyivjs">Gitter</a></li>
     </ul>
   </div>
   <p class="header__note">{{page.callForSpeakers}}</p>
