@@ -41,19 +41,19 @@
       {% endfor %}
     </ul>
     {% if event.lightnings != nil %}
-    <div class="lightning__content">
-      <h1 class="lightning__title">
+    <div class="lightnings">
+      <h1 class="lightnings__title">
           {{commonStrings.lightnings}}
       </h1>
-      <ul class="lightnings">
+      <ul class="lightnings__list">
       {% for lightning in event.lightnings %}
         {% assign human = site.data.people[lightning.speaker] %}
-        <li class="lightning-container">
+        <li class="lightnings__item">
               {% if human != nil %}
                 <a class="link link--dark" href="{{human.homepage}}" target="_blank">{{human.name[page.lang]}}</a> /
               {% endif %}
               {% if lightning.link != nil %}
-                <a class="lightning-link" href="{{lightning.link}}" target="_blank">{{lightning.name}}</a>
+                <a class="lightnings__item-link" href="{{lightning.link}}" target="_blank">{{lightning.name}}</a>
               {% else %}
                 {{lightning.name}}
               {% endif %}
@@ -64,5 +64,5 @@
   </div>
   {% endif %}
   </div>
-  
+
 </article>
