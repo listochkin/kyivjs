@@ -288,39 +288,39 @@ body {
   color: black;
 }
 
-.lightning__content {
+.lightnings {
   display: flex;
   flex-direction: column;
   padding: 2rem 0;
 }
 
 @media (min-width: 32em) {
-  .lightning__content {
+  .lightnings {
     padding: 2rem;
   }
 }
 
-.lightning__title {
-  font-size: 2rem;
+.lightnings__title {
   flex-grow: 1;
   margin-bottom: 1rem;
+  font-size: 2rem;
 }
 
-.lightnings {
+.lightnings__list {
   padding: 1rem 0;
 }
 
-.lightning-container {
+.lightnings__item {
   font-size: 1.6rem;
   line-height: 1.4;
 }
 
-.lightning-container + .lightning-container {
+.lightnings__item + .lightnings__item {
   margin-top: 1rem;
 }
 
-.lightning-link {
-  color: black;  
+.lightnings__item-link {
+  color: black;
 }
 
 .userpic {
