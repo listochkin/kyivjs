@@ -22,22 +22,20 @@
               <img class="userpic__image" src="{{human.avatar}}" alt="">
             </figure>
             <div>
-              <h4 class="human__name">
-                {% if human.homepage != "" %}
-                  <a href="{{human.homepage}}" target="_blank">{{human.name[page.lang]}}</a>
-                {% else %}
-                  {{human.name[page.lang]}}
-                {% endif %}
-              </h4>
+              {% include human.html human=human lang=page.lang %}
               {% assign topics = event.topics %}
               {% if event.topics != nil %}
                 <h5 class="human__talk">
                   {% assign talkLink = topics[human.id].link %}
                   {% assign talkName = topics[human.id].name %}
+                  {% assign talkLang = topics[human.id].lang %}
                   {% if talkLink != nil %}
                     <a class="human__talk-link" href="{{talkLink}}" target="_blank">{{talkName}}</a>
                   {% else %}
                     {{talkName}}
+                  {% endif %}
+                  {% if talkLang != nil %}
+                    <span class="human__talk-lang">{{talkLang}}</span>
                   {% endif %}
                 </h5>
               {% endif %}
@@ -55,7 +53,9 @@
       {% for lightning in event.lightnings %}
         {% assign human = site.data.people[lightning.speaker] %}
         <li class="lightning">
-            <span class="lightning__human"><a class="lightning__human-link" href="{{human.homepage}}" target="_blank">{{human.name[page.lang]}}</a></span>
+            <span class="lightning__human">
+              {% include human.html human=human lang=page.lang %}
+            </span>
             {% if lightning.link != nil %}
               <a class="lightning__link" href="{{lightning.link}}" target="_blank">{{lightning.name}}</a>
             {% else %}

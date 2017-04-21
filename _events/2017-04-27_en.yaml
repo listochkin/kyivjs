@@ -5,13 +5,18 @@ lang: en
 # time: '19:00'
 upcoming: true
 location: wix
-# regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSejyyagQVQY1VWUfjJ2ZAHEuWSrmOcvhZKKW0yaNf6v4le0Lg/viewform'
-# regAnnounce: 'First registration on Tuesday, 28 of March @ 2 p.m. Next will be Thursday, 30th of March @ 2 p.m'
+regLink: 'https://goo.gl/forms/joVim3ZcJnWCE4Gm2'
+regAnnounce: 'First registration on Monday, 24 of April @ 2 p.m. Next will be Wednesday, 26th of April @ 2 p.m'
 speakers:
   - filatov
-  - tba
+  - senin
 topics:
   filatov:
-    name: "Topic name to be announced, theme is 'Offline first'"
+    name: "How to cook offlie-first apps"
+    lang: 'ru'
+    # link:
+  senin:
+    name: "Essential Glimmer"
+    lang: 'ru'
     # link:
 ---

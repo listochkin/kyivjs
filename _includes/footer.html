@@ -12,7 +12,7 @@
             <img class="userpic__image" src="{{human.avatar}}" alt="">
           </figure>
           <div>
-            <h4 class="human__name"><a href="{{human.homepage}}" target="_blank">{{human.name[page.lang]}}</a></h4>
+            {% include human.html human=human lang=page.lang %}
             <h5 class="human__contact"><a href="{{human.contact}}" target="_blank">{{human.contact}}</a></h5>
           </div>
         </li>

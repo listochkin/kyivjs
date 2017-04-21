@@ -1,0 +1,14 @@
+<h4 class="human__name">
+    {{include.human.name[include.lang]}}
+</h4>
+<div class="social-buttons">
+    {% if include.human.twitter %}
+      <a href="https://twitter.com/{{include.human.twitter}}" class="social-buttons__btn social-buttons__btn--twitter" data-show-count="false"><i></i><b>{{include.human.twitter}}</b></a>
+    {% endif %}
+    {% if include.human.github %}
+      <a href="https://github.com/{{include.human.github}}" class="social-buttons__btn social-buttons__btn--github" target="_blank"><i></i></a>
+    {% endif %}
+    {% if include.human.linkedin != "" %}
+      <a href="{{include.human.linkedin}}" class="social-buttons__btn social-buttons__btn--linkedin" target="_blank"><i></i></a>
+    {% endif %}
+</div>

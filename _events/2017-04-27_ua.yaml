@@ -5,13 +5,17 @@ lang: ua
 # time: '19:00'
 upcoming: true
 location: wix
-# regLink: 'https://docs.google.com/forms/d/e/1FAIpQLSejyyagQVQY1VWUfjJ2ZAHEuWSrmOcvhZKKW0yaNf6v4le0Lg/viewform'
-# regAnnounce: 'Перша хвиля реєстрацій — вівторок, 28 березня о 14:00. Друга у четвер, 30 березня о 14:00.'
+regLink: 'https://goo.gl/forms/joVim3ZcJnWCE4Gm2'
+regAnnounce: 'Перша хвиля реєстрацій — понеділок, 24 квітня о 14:00. Друга у середу, 26 квітня о 14:00.'
 speakers:
   - filatov
-  - tba
+  - senin
 topics:
   filatov:
-    name: "Назва доповіді уточнюється, тема: «Offline first»"
+    name: "How to cook offlie-first apps"
+    lang: 'ru'
     # link:
+  senin:
+    name: "Essential Glimmer"
+    lang: 'ru'
 ---
