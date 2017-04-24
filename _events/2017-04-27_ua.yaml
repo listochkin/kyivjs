@@ -12,7 +12,7 @@ speakers:
   - senin
 topics:
   filatov:
-    name: "How to cook offlie-first apps"
+    name: "How to Cook Offline-first Apps"
     lang: 'ru'
     # link:
   senin:
