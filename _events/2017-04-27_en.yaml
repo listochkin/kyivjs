@@ -6,13 +6,13 @@ lang: en
 upcoming: true
 location: wix
 regLink: 'https://goo.gl/forms/joVim3ZcJnWCE4Gm2'
-regAnnounce: 'First registration on Monday, 24 of April @ 2 p.m. Next will be Wednesday, 26th of April @ 2 p.m'
+regAnnounce: 'First registration on Monday, 24th of April @ 2 p.m. Next will be on Wednesday, 26th of April @ 2 p.m'
 speakers:
   - filatov
   - senin
 topics:
   filatov:
-    name: "How to cook offlie-first apps"
+    name: "How to Cook Offline-first Apps"
     lang: 'ru'
     # link:
   senin:
