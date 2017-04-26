@@ -2,7 +2,7 @@
 sortDate: 20170427
 title: 27 квітня 2017
 lang: ua
-# time: '19:00'
+time: '19:00'
 upcoming: true
 location: wix
 regLink: 'https://goo.gl/forms/joVim3ZcJnWCE4Gm2'
@@ -12,7 +12,7 @@ speakers:
   - senin
 topics:
   filatov:
-    name: "How to Cook Offline-first Apps"
+    name: "How to Cook Offline-First Apps"
     lang: 'ru'
     # link:
   senin:

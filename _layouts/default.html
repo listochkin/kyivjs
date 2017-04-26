@@ -33,7 +33,7 @@
               {% assign location = site.data.locations[event.location][page.lang] %}
               <address class="upcoming-info__location">
                 <label class="upcoming-info__show-map" for="{{event.sortDate}}map" title="{{commonStrings.showMap}}">
-                  {{location.name}}, {{location.address}}{% if event.time %}, {{event.time}}{% endif %}
+                  {{location.name}}, {{location.address}}
                 </label>
               </address>
               <input class="upcoming-info__map-toggler" type="checkbox" id="{{event.sortDate}}map">
