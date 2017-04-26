@@ -529,3 +529,26 @@ body {
     padding-right: 10rem;
   }
 }
+
+#scrollToTop {
+    position: fixed;
+    right: 2rem;
+    bottom: 2rem;
+    cursor: pointer;
+    background: none;
+    width: 5rem;
+    height: 5rem;
+    transform: rotate(180deg);
+}
+
+#scrollToTop .path1 {
+  fill: rgba(112, 183, 253, .3);
+}
+
+#scrollToTop .path2 {
+  fill: rgba(112, 183, 253, .6);
+}
+
+#scrollToTop .path3 {
+  fill: rgba(112, 183, 253, 1);
+}
