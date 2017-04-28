@@ -61,6 +61,9 @@
             {% else %}
               {{lightning.name}}
             {% endif %}
+            {% if lightning.lang != nil %}
+              <span class="human__talk-lang">{{lightning.lang}}</span>
+            {% endif %}
         </li>
       {% endfor %}
     </ul>

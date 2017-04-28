@@ -599,6 +599,19 @@
   "contact": "",
   "twitter": "rastopyr_ua",
   "github": "rastopyr"
+},
+"zhusko": {
+  "id": "zhusko",
+  "name": {
+    "ua": "Іван Зусько",
+    "ru": "Иван Зусько",
+    "en": "Ivan Zusko"
+  },
+  "homepage": "",
+  "avatar": "/static/speakers/ivan-zusko.jpg",
+  "contact": "",
+  "twitter": "IvanZusko",
+  "github": "ivanzusko"
 }
 
 }

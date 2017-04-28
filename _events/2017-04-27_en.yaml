@@ -3,20 +3,40 @@ sortDate: 20170427
 title: April 27, 2017
 lang: en
 time: '19:00'
-upcoming: true
+upcoming: false
 location: wix
 regLink: 'https://goo.gl/forms/joVim3ZcJnWCE4Gm2'
-regAnnounce: 'First registration on Monday, 24th of April @ 2 p.m. Next will be on Wednesday, 26th of April @ 2 p.m'
+regAnnounce: 'First registration on Monday, 24 of April @ 2 p.m. Next will be Wednesday, 26th of April @ 2 p.m'
 speakers:
   - filatov
   - senin
 topics:
-  filatov:
-    name: "How to Cook Offline-First Apps"
-    lang: 'ru'
-    # link:
   senin:
     name: "Essential Glimmer"
     lang: 'ru'
-    # link:
+    link: https://drive.google.com/open?id=0B5aBzJ0JSZSgS182Y0NyOGpleHM
+  filatov:
+    name: "Offline First"
+    lang: 'ru'
+    link: https://drive.google.com/open?id=0B4xFRFS363tpNHllNG1zS0U2Rjg
+lightnings:
+  - speaker: frolov
+    name: PWA. Service-Worker. Application
+    lang: 'ru'
+    link: https://drive.google.com/open?id=0B4xFRFS363tpSWZMcndsRWlDQTQ
+
+  - speaker: zhusko
+    lang: 'ua'
+    name: Your own npm package
+    link: https://drive.google.com/open?id=1uZdNTGAv_eMSw1tDztb6p0owcDggv8zf3suwl9YdVvQ
+
+  - speaker: shvayka
+    name: Regexp
+    lang: 'ru'
+    link: https://drive.google.com/open?id=0B4xFRFS363tpY1Bkcno0YkpDbU0
+
+  - speaker: shehet
+    name: CSS in JS Benchmarks
+    lang: 'ru'
+    link: https://drive.google.com/open?id=0B4xFRFS363tpeGNpYUhaVjRfNzQ
 ---
