@@ -7,6 +7,7 @@ upcoming: false
 location: wix
 regLink: 'https://goo.gl/forms/joVim3ZcJnWCE4Gm2'
 regAnnounce: 'First registration on Monday, 24th of April @ 2 p.m. Next will be on Wednesday, 26th of April @ 2 p.m'
+playlist: <iframe class="youtube" src="https://www.youtube.com/embed/videoseries?list=PLxw9RJPDS60rVQ3FpIiusdnDWxBcEXVRa" frameborder="0" allowfullscreen></iframe>
 speakers:
   - filatov
   - senin
@@ -23,7 +24,7 @@ lightnings:
   - speaker: frolov
     name: PWA. Service-Worker. Application
     lang: 'ru'
-    link: https://drive.google.com/open?id=0B4xFRFS363tpSWZMcndsRWlDQTQ
+    link: https://drive.google.com/open?id=0B4xFRFS363tpMGJ4OUIxam1zWEk
 
   - speaker: zhusko
     lang: 'ua'
