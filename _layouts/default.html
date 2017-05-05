@@ -18,42 +18,45 @@
     {% include header.html commonStrings=commonStrings lastComing=lastComing.first %}
     <main class="main">
 
-      <section class="next default-text">
-        <h1>{{page.nextTitle}}</h1>
-        {% for event in events %}
-          {% if event.upcoming == true %}
-            {% include event.html event=event %}
-            <article class="upcoming-info">
-              <p class="upcoming-info__note">
-                {{event.regAnnounce}}
-                {% if event.regLink %}
-                  <br><a class="upcoming-info__link" href="{{event.regLink}}">{{commonStrings.register}}</a>
-                {% endif %}
-              </p>
-              {% assign location = site.data.locations[event.location][page.lang] %}
-              <address class="upcoming-info__location">
-                <label class="upcoming-info__show-map" for="{{event.sortDate}}map" title="{{commonStrings.showMap}}">
-                  {{location.name}}, {{location.address}}
-                </label>
-              </address>
-              <input class="upcoming-info__map-toggler" type="checkbox" id="{{event.sortDate}}map">
-              <div class="upcoming-info__map">
-                {{location.map}}
-              </div>
-            </article>
-          {% endif %}
-        {% endfor %}
-      </section>
+      {% assign upcoming = events | where:"upcoming", true %}
+      {% for event in upcoming %}
+        {% if forloop.first == true %}
+          <section class="next default-text">
+          <h1>{{page.nextTitle}}</h1>
+        {% endif %}
+        {% include event.html event=event %}
+        <article class="upcoming-info">
+          <p class="upcoming-info__note">
+            {{event.regAnnounce}}
+            {% if event.regLink %}
+              <br><a class="upcoming-info__link" href="{{event.regLink}}">{{commonStrings.register}}</a>
+            {% endif %}
+          </p>
+          {% assign location = site.data.locations[event.location][page.lang] %}
+          <address class="upcoming-info__location">
+            <label class="upcoming-info__show-map" for="{{event.sortDate}}map" title="{{commonStrings.showMap}}">
+              {{location.name}}, {{location.address}}
+            </label>
+          </address>
+          <input class="upcoming-info__map-toggler" type="checkbox" id="{{event.sortDate}}map">
+          <div class="upcoming-info__map">
+            {{location.map}}
+          </div>
+        </article>
+      {% if forloop.first == true %}
+        </section>
+      {% endif %}
+    {% endfor %}
 
-      <section class="previous default-text">
-        <h2>{{page.prevTitle}}</h2>
-        {% for event in events %}
-          {% if event.upcoming != true %}
-            {% include event.html event=event %}
-          {% endif %}
-        {% endfor %}
-      </section>
-    </main>
-    {% include footer.html commonStrings=commonStrings %}
-  </body>
+    <section class="previous default-text">
+      <h2>{{page.prevTitle}}</h2>
+      {% for event in events %}
+        {% if event.upcoming != true %}
+          {% include event.html event=event %}
+        {% endif %}
+      {% endfor %}
+    </section>
+  </main>
+  {% include footer.html commonStrings=commonStrings %}
+</body>
 </html>
