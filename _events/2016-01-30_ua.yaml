@@ -5,13 +5,13 @@ dou: http://dou.ua/calendar/9623/
 lang: ua
 speakers:
   - zaichenko
-  - ponomarenko
+  - pponomarenko
   - shvayka
   - safronove
 topics:
   zaichenko:
     name: Best practices - Angular JS
-  ponomarenko:
+  pponomarenko:
     name: Плагіни для JavaScript ігор
     link: http://slides.com/theshock/javascript-plugins/
   shvayka:
