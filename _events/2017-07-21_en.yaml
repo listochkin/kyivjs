@@ -3,20 +3,26 @@ sortDate: 20170721
 title: July 21, 2017
 lang: en
 time: '19:00'
-upcoming: true
+upcoming: false
 location: wix
 regLink: 'https://goo.gl/forms/GhSb6vblJw56RwYw2'
 regAnnounce: 'Registration on Monday, 17th of July @ 2 p.m.'
+playlist: <iframe class="youtube" src="https://www.youtube.com/embed/videoseries?list=PLxw9RJPDS60rbnSh5FzYNneE_qyZGwzg-" frameborder="0" allowfullscreen></iframe>
 speakers:
-  - raspopov
   - slesarev
+  - raspopov
 topics:
-  raspopov:
-    name: "Something about e2e testing"
-    lang: 'ru'
-    link:
   slesarev:
     name: "Streams in Node.js and why they're good"
     lang: 'ru'
-    link:
+    link: https://drive.google.com/open?id=0B4xFRFS363tpd0VyUlJxTFdScG8
+  raspopov:
+    name: "Something about e2e testing"
+    lang: 'ru'
+    link: https://alexeyraspopov.github.io/just-test-it/#1
+lightnings:
+  - speaker: pchelintsev
+    name: "Building libraries"
+    lang: 'ru'
+    link: http://slides.com/jalkoby/from-zero-to-xyz-webpack-plugin
 ---
