@@ -680,5 +680,16 @@
     "avatar": "/static/speakers/sergey-pchelintsev.jpg",
     "twitter": "jalkoby",
     "github": "jalkoby"
+  },
+  "ratyshnyi": {
+    "id": "ratyshnyi",
+    "name": {
+      "uk": "Віталій Ратушний",
+      "ru": "Виталий Ратушный",
+      "en": "Vitalii Ratyshnyi"
+    },
+    "avatar": "/static/speakers/vitalii-ratyshnyi.jpg",
+    "twitter": "Misreadable",
+    "github": "MisreadableMind"
   }
 }

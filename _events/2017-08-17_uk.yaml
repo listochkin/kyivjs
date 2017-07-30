@@ -1,0 +1,22 @@
+---
+sortDate: 20170817
+title: 17 серпня 2017
+lang: uk
+time: '18:30'
+upcoming: true
+location: wix
+regLink: 'https://goo.gl/forms/dwmJ5pGLOg3TFWKw1'
+regAnnounce: 'Pеєстрація в понеділок, 14 серпня о 14:00.'
+speakers:
+  - markorel
+  - ratyshnyi
+topics:
+  markorel:
+    name: "The server is dead, long live the λάμδα!"
+    lang: 'ru'
+    link:
+  ratyshnyi:
+    name: "Vue: business-first"
+    lang: 'ru'
+    link:
+---

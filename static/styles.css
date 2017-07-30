@@ -193,7 +193,7 @@ body {
 .youtube {
   width: 100%;
   height: 40vmax;
-  margin: 4rem 0
+  margin: 4rem 0;
 }
 
 .event {
@@ -359,7 +359,6 @@ body {
   will-change: height;
   transition: height .2s ease-out;
   margin-top: 1rem;
-  background: rgba(0, 0, 0, .05);
 }
 
 .upcoming-info__map-toggler {

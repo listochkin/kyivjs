@@ -37,17 +37,17 @@
     "uk": {
       "name": "Офіс Wix",
       "address": "вул. Паньківська, 14a",
-      "map": "<script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeafde18a9ee9732ea1d244e06bc868d40597ecd99c160fcd95ec07782fb60f70&amp;width=100%25&amp;height=400&amp;lang=ru_UA&amp;scroll=true'></script>"
+      "map": "<iframe src='https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1270.5516382889202!2d30.502255337970645!3d50.439176950404566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d50.4389634!2d30.5027734!4m5!1s0x40d4cef0f6a0fdd1%3A0xc594a6495a0b39bb!2sWIX%2C+Pankivska+St%2C+14%2C+Kyiv%2C+02000!3m2!1d50.4397117!2d30.502906699999997!5e0!3m2!1sen!2sua!4v1501420401142' width='800' height='400' frameborder='0' style='border:0' allowfullscreen></iframe>"
     },
     "ru": {
       "name": "Офис Wix",
       "address": "Паньковская 14a",
-      "map": "<script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeafde18a9ee9732ea1d244e06bc868d40597ecd99c160fcd95ec07782fb60f70&amp;width=100%25&amp;height=400&amp;lang=ru_UA&amp;scroll=true'></script>"
+      "map": "<iframe src='https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1270.5516382889202!2d30.502255337970645!3d50.439176950404566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d50.4389634!2d30.5027734!4m5!1s0x40d4cef0f6a0fdd1%3A0xc594a6495a0b39bb!2sWIX%2C+Pankivska+St%2C+14%2C+Kyiv%2C+02000!3m2!1d50.4397117!2d30.502906699999997!5e0!3m2!1sen!2sua!4v1501420401142' width='800' height='400' frameborder='0' style='border:0' allowfullscreen></iframe>"
     },
     "en": {
       "name": "Wix Office",
       "address": "Pankivska 14a",
-      "map": "<script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Aeafde18a9ee9732ea1d244e06bc868d40597ecd99c160fcd95ec07782fb60f70&amp;width=100%25&amp;height=400&amp;lang=en&amp;scroll=true'></script>"
+      "map": "<iframe src='https://www.google.com/maps/embed?pb=!1m26!1m12!1m3!1d1270.5516382889202!2d30.502255337970645!3d50.439176950404566!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m11!3e2!4m3!3m2!1d50.4389634!2d30.5027734!4m5!1s0x40d4cef0f6a0fdd1%3A0xc594a6495a0b39bb!2sWIX%2C+Pankivska+St%2C+14%2C+Kyiv%2C+02000!3m2!1d50.4397117!2d30.502906699999997!5e0!3m2!1sen!2sua!4v1501420401142' width='800' height='400' frameborder='0' style='border:0' allowfullscreen></iframe>"
     }
   }
 }
