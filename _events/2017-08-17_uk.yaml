@@ -19,4 +19,8 @@ topics:
     name: "Vue: business-first"
     lang: 'ru'
     link:
+lightnings:
+  - speaker: philipshurpik
+    name: "From JS to Computer Vision"
+    lang: 'ru'
 ---

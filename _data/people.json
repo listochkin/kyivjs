@@ -690,6 +690,19 @@
     },
     "avatar": "/static/speakers/vitalii-ratyshnyi.jpg",
     "twitter": "Misreadable",
-    "github": "MisreadableMind"
+    "github": "MisreadableMind",
+    "linkedin": "https://www.linkedin.com/in/vitaliy-ratyshnij-3222a610a/"
+  },
+  "philipshurpik": {
+    "id": "philipshurpik",
+    "name": {
+      "uk": "Филипп Шурпик",
+      "ru": "Филипп Шурпик",
+      "en": "Philip Shurpik"
+    },
+    "avatar": "/static/speakers/philip-shurpik.jpg",
+    "twitter": "philipshurpik",
+    "github": "philipshurpik",
+    "linkedin": "https://www.linkedin.com/in/philipshurpik/"
   }
 }
