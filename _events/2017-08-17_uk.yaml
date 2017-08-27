@@ -3,10 +3,11 @@ sortDate: 20170817
 title: 17 серпня 2017
 lang: uk
 time: '18:30'
-upcoming: true
+upcoming: false
 location: wix
 regLink: 'https://goo.gl/forms/dwmJ5pGLOg3TFWKw1'
 regAnnounce: 'Pеєстрація в понеділок, 14 серпня о 14:00.'
+playlist: <iframe class="youtube" src="https://www.youtube.com/embed/SJ5bBP6L_AU" frameborder="0" allowfullscreen></iframe>
 speakers:
   - markorel
   - ratyshnyi
@@ -14,11 +15,11 @@ topics:
   markorel:
     name: "The server is dead, long live the λάμδα!"
     lang: 'ru'
-    link:
+    link: 'http://slides.com/markorel/lambda#/'
   ratyshnyi:
     name: "Vue: business-first"
     lang: 'ru'
-    link:
+    link: 'https://drive.google.com/file/d/0B4xFRFS363tpWXB3YXpoUGo3M0k/view'
 lightnings:
   - speaker: philipshurpik
     name: "From JS to Computer Vision"
