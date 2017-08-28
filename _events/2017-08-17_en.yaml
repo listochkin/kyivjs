@@ -7,7 +7,7 @@ upcoming: false
 location: wix
 regLink: 'https://goo.gl/forms/dwmJ5pGLOg3TFWKw1'
 regAnnounce: 'Registration on Monday, 14th of August @ 2 p.m.'
-playlist: <iframe class="youtube" src="https://www.youtube.com/embed/SJ5bBP6L_AU?feature=oembed" frameborder="0" allowfullscreen></iframe>
+playlist: <iframe class="youtube" src="https://www.youtube.com/embed/SJ5bBP6L_AU" frameborder="0" allowfullscreen></iframe>
 speakers:
   - markorel
   - ratyshnyi
