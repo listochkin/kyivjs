@@ -25,7 +25,7 @@ topics:
 lightnings:
   - speaker: markorel
     name: "Try-catch me if you can"
-    lang: "uk"
+    lang: "ua"
     link: 'http://slides.com/markorel/try-catch'
   - speaker: blia
     name: "Map/WeakMap/Set/WeakSet"

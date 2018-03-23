@@ -7,6 +7,9 @@ upcoming: false
 location: wix
 regLink: 'https://goo.gl/forms/Kbtnjieexacva7Mz1'
 regAnnounce: 'Registration on Monday, 27th of November @ 14:00'
+playlist: '<iframe  class="youtube"
+src="https://www.youtube.com/embed/?listType=playlist&list=PLxw9RJPDS60of87ljedKgwU5NyeM-nlpB"
+frameborder="0" allowfullscreen></iframe>'
 speakers:
   - skachkov
   - syrotenko
