@@ -1,0 +1,18 @@
+---
+sortDate: 20180426
+title: April 26, 2018
+lang: en
+time: '18:30'
+upcoming: true
+location: wix
+speakers:
+  - evgenykozhura
+  - syrotenko
+topics:
+  evgenykozhura:
+    name: "Web Audio in Action: a Patchable Synthesizer"
+    lang: 'ru'
+  syrotenko:
+    name: 'Многопоточный JS. Миф или реальность?'
+    lang: 'ru'
+---
