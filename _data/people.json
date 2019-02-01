@@ -236,6 +236,8 @@
     },
     "linkedin": "https://www.linkedin.com/in/turskyi",
     "avatar": "/static/speakers/viktor-turskyi.jpg",
+    "twitter": "koorchik",
+    "github": "koorchik",
     "contact": ""
   },
   "chaplinsky": {
@@ -878,5 +880,28 @@
       "en": "Max Bezugly"
     },
     "avatar": "/static/speakers/max-bezugly.jpg"
+  },
+  "akulov": {
+    "id": "akulov",
+    "name": {
+      "uk": "Іван Акулов",
+      "ru": "Иван Акулов",
+      "en": "Ivan Akulov"
+    },
+    "avatar": "/static/speakers/ivan-akulov.jpg",
+    "github": "iamakulov",
+    "twitter": "iamakulov",
+    "linkedin": "https://www.linkedin.com/in/iamakulov"
+  },
+  "tepluhina": {
+    "id": "tepluhina",
+    "name": {
+      "uk": "Наталія Теплухіна",
+      "ru": "Наталья Теплухина",
+      "en": "Natalia Tepluhina"
+    },
+    "avatar": "/static/speakers/natalia-tepluhina.jpg",
+    "github": "NataliaTepluhina",
+    "twitter": "N_Tepluhina"
   }
 }

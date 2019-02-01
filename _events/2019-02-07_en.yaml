@@ -1,0 +1,30 @@
+---
+sortDate: 20190207
+title: February 7, 2019
+lang: en
+time: '18:30'
+upcoming: true
+location: wix
+regLink: 'https://goo.gl/forms/84iyNZtHMYOrFMbk2'
+regAnnounce: 'Registration on Friday, 1th of February @ 14:00'
+speakers:
+  - tepluhina
+  - turskyi
+  - akulov
+topics:
+  tepluhina:
+    name: 'Making Vue app reactive with RxJS'
+    lang: 'ru'
+  turskyi:
+    name: "Yet another JSON RPC library?"
+    lang: 'ru'
+  akulov:
+    name: "Building quick apps in 2019"
+    lang: 'ru'
+    about: "Web performance is important, and it directly affects your app. In lots of case studies, the faster a site was, the more people used it — and the more money it earned. So, let’s see how to build a performant app in 2019: what metrics are the most important, what approaches we should use and what tools can help us with all this stuff."
+lightnings:
+  - speaker: verinov
+    name: "npm explore npm"
+    lang: "ru"
+  - speaker: shehet
+---
