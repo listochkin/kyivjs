@@ -484,7 +484,7 @@
       "ru": "Никита Галкин",
       "en": "Nikita Galkin"
     },
-    "twitter": "https://twitter.com/galk_in",
+    "twitter": "galk_in",
     "avatar": "/static/speakers/nikita-galkin.jpg",
     "contact": ""
   },
@@ -495,7 +495,7 @@
       "ru": "Валерий Сорокобатько",
       "en": "Valeriy Sorokobatko"
     },
-    "twitter": "https://twitter.com/tuchk4",
+    "twitter": "tuchk4",
     "avatar": "/static/speakers/valeriy-sorokobatko.jpg",
     "contact": ""
   },
