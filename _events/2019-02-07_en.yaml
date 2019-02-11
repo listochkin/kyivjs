@@ -3,10 +3,13 @@ sortDate: 20190207
 title: February 7, 2019
 lang: en
 time: '18:30'
-upcoming: true
+upcoming: false
 location: wix
 regLink: 'https://goo.gl/forms/84iyNZtHMYOrFMbk2'
 regAnnounce: 'Registration on Friday, 1th of February @ 14:00'
+playlist: '<iframe  class="youtube"
+src="https://www.youtube.com/embed/Ny1_s9OHg1M"
+frameborder="0" allowfullscreen></iframe>'
 speakers:
   - tepluhina
   - turskyi
@@ -15,18 +18,23 @@ topics:
   tepluhina:
     name: 'Making Vue app reactive with RxJS'
     lang: 'ru'
+    link: 'https://slides.com/nataliatepluhina/making-your-vue-app-reactive-with-rxjs#/'
   turskyi:
     name: "Yet another JSON RPC library?"
     lang: 'ru'
+    link: 'https://docs.google.com/presentation/d/1bvlsG5nBEVwMGm7rBh4zmfrGDLUIjpv_t4rxFS2_uMw/edit'
   akulov:
     name: "Building quick apps in 2019"
     lang: 'ru'
+    link: 'https://docs.google.com/presentation/d/1GAc1-lY-uqTnzoIN8lWeQpbaBG3zh_eolAHNwAfqE4U/edit'
     about: "Web performance is important, and it directly affects your app. In lots of case studies, the faster a site was, the more people used it — and the more money it earned. So, let’s see how to build a performant app in 2019: what metrics are the most important, what approaches we should use and what tools can help us with all this stuff."
 lightnings:
   - speaker: verinov
     name: "npm explore npm"
     lang: "ru"
+    link: 'https://drive.google.com/file/d/1Jgej6L44BeaOofCqr5Kwr7kLxivrQDjk/view'
   - speaker: shehet
-    name: "to be announced"
+    name: "Эстимирование"
     lang: 'ru'
+    link: 'https://drive.google.com/file/d/1F-5hei901Z8m26F53gigWlkbjTdgejP7/view'
 ---
