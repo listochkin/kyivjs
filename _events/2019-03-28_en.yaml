@@ -1,0 +1,32 @@
+---
+sortDate: 20190328
+title: March 28, 2019
+lang: uk
+time: '18:30'
+upcoming: true
+location: wix
+regLink: 'https://goo.gl/forms/ZFQTJ3mgKJv6851j2'
+regAnnounce: 'Registration on Tuesday, 25th of March @ 17:00'
+playlist: 
+speakers:
+  - mikolalex
+  - raspopov
+topics:
+  mikolalex:
+    name: 'Mrr: Make React Reactive'
+    lang: 'uk'
+  raspopov:
+    name: "In Soviet Union interface touches you"
+    lang: 'ru'
+    about: "The ability to explore user’s data is the thing that makes data visualization efficient. Ability to ask more questions beyond what was scripted initially brings more focus to the data itself, not just fancy colors or blocks. Let’s talk about a single use case where the interaction scenarios is the thing that makes data viz useful and how to implement them efficiently"
+lightnings:
+  - speaker: croftyland
+    name: "Animation in the Air"
+    lang: "uk"
+  - speaker: slesarev
+    name: 'Code Ownership'
+    lang: 'ru'
+  - speaker: hithimto
+    name: 'Using WebStorm like a pro'
+    lang: 'ru'
+---

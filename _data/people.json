@@ -903,5 +903,26 @@
     "avatar": "/static/speakers/natalia-tepluhina.jpg",
     "github": "NataliaTepluhina",
     "twitter": "N_Tepluhina"
+  },
+  "mikolalex": {
+    "id": "mikolalex",
+    "name": {
+      "uk": "Микола Олексієнко",
+      "ru": "Николай Олексеенко",
+      "en": "Mykola Oleksiienko"
+    },
+    "avatar": "/static/speakers/mykola-oleksiienko.jpg",
+    "github": "mikolalex"
+  },
+  "hithimto": {
+    "id": "hithimto",
+    "name": {
+      "uk": "Максим Донченко",
+      "ru": "Максим Донченко",
+      "en": "Maksym Donchenko"
+    },
+    "avatar": "/static/speakers/maksym-donchenko.jpg",
+    "github": "goodwin64",
+    "linkedin": "https://www.linkedin.com/in/max-donchenko-792a60b8/"
   }
 }
