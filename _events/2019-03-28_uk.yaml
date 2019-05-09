@@ -3,11 +3,13 @@ sortDate: 20190328
 title: 28 березня 2019
 lang: uk
 time: '18:30'
-upcoming: true
+upcoming: false
 location: wix
 regLink: 'https://goo.gl/forms/ZFQTJ3mgKJv6851j2'
 regAnnounce: 'Pеєстрація у вівторок, 25 березня, о 17:00'
-playlist: 
+playlist: '<iframe class="youtube"
+src="https://www.youtube.com/embed/?listType=playlist&list=PLxw9RJPDS60rZDoo9WrTddVtkKVhaxMDn"
+frameborder="0" allowfullscreen></iframe>'
 speakers:
   - mikolalex
   - raspopov
@@ -15,15 +17,19 @@ topics:
   mikolalex:
     name: 'Mrr: Make React Reactive'
     lang: 'uk'
+    link: 'https://docs.google.com/presentation/d/1j2uLGeJoI89d3OT7CV5uC4OaqxItGAJ9Noj8L4Awwrk'
   raspopov:
     name: "Трогательный интерфейс"
+    link: 'https://alexeyraspopov.github.io/touchy-things/'
     lang: 'ru'
 lightnings:
   - speaker: croftyland
     name: "Animation in the Air"
+    link: 'https://slides.com/cristinalandvytovych/animation/'
     lang: "uk"
   - speaker: slesarev
     name: 'Code Ownership'
+    link: 'http://bit.ly/2Vc9dXA'
     lang: 'ru'
   - speaker: hithimto
     name: 'Using WebStorm like a pro'

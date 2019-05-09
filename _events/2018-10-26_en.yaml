@@ -7,6 +7,9 @@ upcoming: false
 location: wix
 regLink: 'https://goo.gl/forms/c4DpUyYvIRjeawcV2'
 regAnnounce: 'Registration on Friday, 19th of October @ 14:00'
+playlist: '<iframe  class="youtube"
+src="https://www.youtube.com/embed/?listType=playlist&list=PLxw9RJPDS60pAakpyewUFg7fV46A0bUAf"
+frameborder="0" allowfullscreen></iframe>'
 speakers:
   - flpvsk
   - havrylin
