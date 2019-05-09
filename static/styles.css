@@ -246,6 +246,7 @@ body {
 .human__name {
   font-size: 2.6em;
   line-height: 1.5;
+  margin-bottom: 0.5rem;
 }
 
 .human__contact {
@@ -256,7 +257,7 @@ body {
 .human__talk {
   font-size: 2.1em;
   line-height: 1.3;
-  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
 
 .human__talk-link {
@@ -267,18 +268,16 @@ body {
   color: #333;
   border: #333 1px solid;
   padding: 1px 4px;
-  font-size: 0.5em;
-  position: relative;
-  top: -3px;
-  margin-left: 5px;
+  font-size: 12px;
+  text-transform: uppercase;
+  margin-left: 8px;
   border-radius: 3px;
 }
 
 .human__talk-about{
-  font-size: 1.3em;
-  padding-top: 5px;
+  font-size: 16px;
+  line-height: 1.6em;
   color: #333;
-  line-height: 1.3em;
 }
 
 .lightnings {
@@ -391,6 +390,7 @@ body {
 }
 .social-buttons {
   height: 20px;
+  margin-bottom: 1rem;
 }
 
 .social-buttons__btn {
@@ -451,12 +451,6 @@ body {
 
 .lightning__human .social-buttons__btn {
   margin-top: 6px;
-}
-/* ===== resonsiveness ===== */
-@media (max-width: 25.6875em)/*411px*/ {
-  html {
-    font-size: 50%;
-  }
 }
 
 @media (min-width: 25.75em)/*412px*/ {
